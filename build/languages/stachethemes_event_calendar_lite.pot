@@ -1,0 +1,7152 @@
+# Copyright (C) 2024 Stachethemes
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Stachethemes Event Calendar Lite 5.3.2\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/stec-lite\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-10-22T16:57:55+03:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.10.0\n"
+"X-Domain: stachethemes_event_calendar_lite\n"
+
+#. Plugin Name of the plugin
+#: stec.php
+#: build/stec.php:65
+msgid "Stachethemes Event Calendar Lite"
+msgstr ""
+
+#. Description of the plugin
+#: stec.php
+msgid "Stachethemes Event Calendar Lite is a WordPress Calendar Plugin that allows you to easily create, manage and display events on your website."
+msgstr ""
+
+#. Author of the plugin
+#: stec.php
+msgid "Stachethemes"
+msgstr ""
+
+#. Author URI of the plugin
+#: stec.php
+msgid "https://www.stachethemes.com/"
+msgstr ""
+
+#: build/includes/admin-menu.php:43
+#: build/includes/admin-menu.php:44
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Dashboard"
+msgstr ""
+
+#: build/includes/admin-menu.php:52
+#: build/includes/admin-menu.php:53
+#: build/assets/js/dashboard/pages/home/home-lazy.js:1
+msgid "Settings"
+msgstr ""
+
+#: build/includes/admin-menu.php:60
+#: build/includes/admin-menu.php:61
+#: build/includes/taxonomies/class.taxonomy-stec_cal.php:27
+#: build/includes/taxonomies/class.taxonomy-stec_cal.php:28
+#: build/assets/js/1067-lazy.js:1
+#: build/assets/js/3824-lazy.js:1
+#: build/assets/js/dashboard/pages/home/home-lazy.js:1
+#: build/assets/js/widgets/events-list/admin.js:1
+#: build/assets/js/widgets/events-slider/admin.js:1
+#: build/assets/js/widgets/stec/admin.js:1
+msgid "Calendars"
+msgstr ""
+
+#: build/includes/admin-menu.php:68
+#: build/includes/admin-menu.php:69
+#: build/includes/posts/class.post-stec_event.php:115
+#: build/assets/js/dashboard/pages/home/home-lazy.js:1
+msgid "Events"
+msgstr ""
+
+#: build/includes/admin-menu.php:76
+#: build/includes/admin-menu.php:77
+#: build/includes/taxonomies/class.taxonomy-stec_cat.php:26
+#: build/includes/taxonomies/class.taxonomy-stec_cat.php:27
+#: build/assets/js/1067-lazy.js:1
+#: build/assets/js/3824-lazy.js:1
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+#: build/assets/js/dashboard/pages/home/home-lazy.js:1
+#: build/assets/js/widgets/events-list/admin.js:1
+#: build/assets/js/widgets/events-slider/admin.js:1
+#: build/assets/js/widgets/stec/admin.js:1
+msgid "Categories"
+msgstr ""
+
+#: build/includes/admin-menu.php:85
+#: build/includes/admin-menu.php:86
+#: build/includes/taxonomies/class.taxonomy-stec_org.php:28
+#: build/includes/taxonomies/class.taxonomy-stec_org.php:29
+#: build/assets/js/1067-lazy.js:1
+#: build/assets/js/3824-lazy.js:1
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+#: build/assets/js/dashboard/pages/home/home-lazy.js:1
+#: build/assets/js/widgets/events-list/admin.js:1
+#: build/assets/js/widgets/events-slider/admin.js:1
+#: build/assets/js/widgets/stec/admin.js:1
+msgid "Organizers"
+msgstr ""
+
+#: build/includes/admin-menu.php:93
+#: build/includes/admin-menu.php:94
+#: build/includes/taxonomies/class.taxonomy-stec_gst.php:26
+#: build/includes/taxonomies/class.taxonomy-stec_gst.php:27
+#: build/assets/js/1067-lazy.js:1
+#: build/assets/js/3824-lazy.js:1
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+#: build/assets/js/dashboard/pages/home/home-lazy.js:1
+#: build/assets/js/widgets/stec/admin.js:1
+msgid "Guests"
+msgstr ""
+
+#: build/includes/admin-menu.php:101
+#: build/includes/admin-menu.php:102
+#: build/includes/taxonomies/class.taxonomy-stec_loc.php:26
+#: build/includes/taxonomies/class.taxonomy-stec_loc.php:27
+#: build/assets/js/1067-lazy.js:1
+#: build/assets/js/3824-lazy.js:1
+#: build/assets/js/dashboard/pages/home/home-lazy.js:1
+#: build/assets/js/widgets/events-list/admin.js:1
+#: build/assets/js/widgets/events-slider/admin.js:1
+#: build/assets/js/widgets/stec/admin.js:1
+msgid "Locations"
+msgstr ""
+
+#: build/includes/admin-menu.php:109
+#: build/includes/admin-menu.php:110
+#: build/assets/js/dashboard/pages/home/home-lazy.js:1
+msgid "Upgrade"
+msgstr ""
+
+#: build/includes/class.db-updater.php:89
+msgid "Stachethemes Event Calendar database update failed."
+msgstr ""
+
+#. translators: %s: version number
+#: build/includes/class.db-updater.php:101
+msgid "Stachethemes Event Calendar database is up to date. Current version: %s"
+msgstr ""
+
+#. translators: %s is error message
+#: build/includes/class.helpers.php:155
+msgid "Error uploading file: %s"
+msgstr ""
+
+#: build/includes/class.permissions.php:224
+msgid "Public"
+msgstr ""
+
+#: build/includes/class.permissions.php:229
+msgid "Private"
+msgstr ""
+
+#: build/includes/class.permissions.php:234
+msgid "Logged-in users"
+msgstr ""
+
+#: build/includes/class.rest-misc-controller.php:190
+msgid "Missing search term"
+msgstr ""
+
+#: build/includes/class.rest-misc-controller.php:248
+msgid "Invalid file type"
+msgstr ""
+
+#: build/includes/class.tools.php:63
+msgid "Only calendar taxonomies are allowed"
+msgstr ""
+
+#: build/includes/posts/class.post-stec_event.php:115
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Event"
+msgstr ""
+
+#: build/includes/posts/class.post-stec_event.php:787
+msgid "Archived"
+msgstr ""
+
+#. translators: %s: post count
+#: build/includes/posts/class.post-stec_event.php:793
+msgid "Archived (%s)"
+msgid_plural "Archived (%s)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: build/includes/posts/controllers/class.rest-stec_event-controller.php:86
+#: build/includes/posts/controllers/class.rest-stec_event-controller.php:92
+#: build/includes/posts/controllers/class.rest-stec_event-controller.php:706
+#: build/includes/posts/controllers/class.rest-stec_event-controller.php:712
+msgid "Event must have a calendar"
+msgstr ""
+
+#: build/includes/posts/controllers/class.rest-stec_event-controller.php:96
+#: build/includes/posts/controllers/class.rest-stec_event-controller.php:716
+msgid "You do not have permission to use this calendar"
+msgstr ""
+
+#: build/includes/posts/controllers/class.rest-stec_event-controller.php:736
+msgid "You do not have permissions change event authors"
+msgstr ""
+
+#: build/includes/posts/controllers/class.rest-stec_event-controller.php:867
+msgid "You do not have permission to delete events from this calendar"
+msgstr ""
+
+#: build/includes/posts/controllers/class.rest-stec_event-controller.php:915
+msgid "Event could not be archived"
+msgstr ""
+
+#: build/includes/posts/controllers/class.rest-stec_event-controller.php:943
+msgid "Event could not be unarchived"
+msgstr ""
+
+#: build/includes/posts/controllers/trait.rest-post-traits.php:68
+msgid "Unique identifier for the post."
+msgstr ""
+
+#: build/includes/posts/controllers/trait.rest-post-traits.php:94
+msgid "Force delete post"
+msgstr ""
+
+#: build/includes/posts/trait.post-helpers.php:20
+msgid "Add New"
+msgstr ""
+
+#. translators: %s: post singular name
+#: build/includes/posts/trait.post-helpers.php:22
+msgctxt "post singular name"
+msgid "Add New %s"
+msgstr ""
+
+#. translators: %s: post singular name
+#: build/includes/posts/trait.post-helpers.php:24
+msgctxt "post singular name"
+msgid "Edit %s"
+msgstr ""
+
+#. translators: %s: post singular name
+#: build/includes/posts/trait.post-helpers.php:26
+msgctxt "post singular name"
+msgid "New %s"
+msgstr ""
+
+#. translators: %s: post singular name
+#: build/includes/posts/trait.post-helpers.php:28
+msgctxt "post singular name"
+msgid "View %s"
+msgstr ""
+
+#. translators: %s: post plural name
+#: build/includes/posts/trait.post-helpers.php:30
+msgctxt "post plural name"
+msgid "View %s"
+msgstr ""
+
+#. translators: %s: post plural name
+#: build/includes/posts/trait.post-helpers.php:32
+msgctxt "post plural name"
+msgid "Search %s"
+msgstr ""
+
+#. translators: %s: post plural name
+#: build/includes/posts/trait.post-helpers.php:34
+msgctxt "post plural name"
+msgid "No %s found"
+msgstr ""
+
+#. translators: %s: post plural name
+#: build/includes/posts/trait.post-helpers.php:36
+msgctxt "post plural name"
+msgid "No %s found in trash"
+msgstr ""
+
+#: build/includes/posts/trait.post-helpers.php:37
+msgid "Parent Page:"
+msgstr ""
+
+#. translators: %s: post plural name
+#: build/includes/posts/trait.post-helpers.php:39
+msgctxt "post plural name"
+msgid "All %s"
+msgstr ""
+
+#. translators: %s: post singular name
+#: build/includes/posts/trait.post-helpers.php:41
+msgctxt "post singular name"
+msgid "%s archive"
+msgstr ""
+
+#. translators: %s: post singular name
+#: build/includes/posts/trait.post-helpers.php:43
+msgctxt "post singular name"
+msgid "%s attributes"
+msgstr ""
+
+#. translators: %s: post singular name
+#: build/includes/posts/trait.post-helpers.php:45
+msgctxt "post singular name"
+msgid "Insert into %s"
+msgstr ""
+
+#. translators: %s: post singular name
+#: build/includes/posts/trait.post-helpers.php:47
+msgctxt "post singular name"
+msgid "Uploaded to this %s"
+msgstr ""
+
+#: build/includes/posts/trait.post-helpers.php:48
+msgid "Featured image"
+msgstr ""
+
+#: build/includes/posts/trait.post-helpers.php:49
+msgid "Set featured image"
+msgstr ""
+
+#: build/includes/posts/trait.post-helpers.php:50
+msgid "Remove featured image"
+msgstr ""
+
+#: build/includes/posts/trait.post-helpers.php:51
+msgid "Use as featured image"
+msgstr ""
+
+#. translators: %s: post plural name
+#: build/includes/posts/trait.post-helpers.php:53
+msgctxt "post plural name"
+msgid "Filter %s list"
+msgstr ""
+
+#: build/includes/posts/trait.post-helpers.php:54
+msgid "Filter by date"
+msgstr ""
+
+#. translators: %s: post plural name
+#: build/includes/posts/trait.post-helpers.php:56
+msgctxt "post plural name"
+msgid "%s list navigation"
+msgstr ""
+
+#. translators: %s: post plural name
+#: build/includes/posts/trait.post-helpers.php:58
+msgctxt "post plural name"
+msgid "%s list"
+msgstr ""
+
+#. translators: %s: post singular name
+#: build/includes/posts/trait.post-helpers.php:60
+msgctxt "post singular name"
+msgid "%s published"
+msgstr ""
+
+#. translators: %s: post singular name
+#: build/includes/posts/trait.post-helpers.php:62
+msgctxt "post singular name"
+msgid "%s published privately"
+msgstr ""
+
+#. translators: %s: post singular name
+#: build/includes/posts/trait.post-helpers.php:64
+msgctxt "post singular name"
+msgid "%s reverted to draft"
+msgstr ""
+
+#. translators: %s: post singular name
+#: build/includes/posts/trait.post-helpers.php:66
+msgctxt "post singular name"
+msgid "%s scheduled"
+msgstr ""
+
+#. translators: %s: post singular name
+#: build/includes/posts/trait.post-helpers.php:68
+msgctxt "post singular name"
+msgid "%s updated"
+msgstr ""
+
+#: build/includes/shortcodes/shortcode.stec_events_slider.php:230
+msgctxt "Button label"
+msgid "Tickets"
+msgstr ""
+
+#: build/includes/taxonomies/class.taxonomy-stec_cal.php:28
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Calendar"
+msgstr ""
+
+#: build/includes/taxonomies/class.taxonomy-stec_cat.php:27
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Category"
+msgstr ""
+
+#: build/includes/taxonomies/class.taxonomy-stec_gst.php:27
+msgid "Guest"
+msgstr ""
+
+#: build/includes/taxonomies/class.taxonomy-stec_loc.php:27
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Location"
+msgstr ""
+
+#: build/includes/taxonomies/class.taxonomy-stec_org.php:29
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Organizer"
+msgstr ""
+
+#: build/includes/taxonomies/controllers/class.rest-stec_loc-controller.php:97
+#: build/includes/taxonomies/controllers/class.rest-stec_loc-controller.php:120
+msgid "Only logged-in users can read the description"
+msgstr ""
+
+#: build/includes/taxonomies/controllers/class.rest-stec_loc-controller.php:98
+#: build/includes/taxonomies/controllers/class.rest-stec_loc-controller.php:121
+msgid "Only logged-in users can read the address"
+msgstr ""
+
+#: build/includes/taxonomies/controllers/class.rest-stec_org-controller.php:74
+#: build/includes/taxonomies/controllers/class.rest-stec_org-controller.php:96
+msgid "You do not have permission to verify organizers"
+msgstr ""
+
+#: build/includes/taxonomies/controllers/trait.rest-taxonomy-traits.php:59
+msgid "Unique identifier for the term."
+msgstr ""
+
+#: build/includes/taxonomies/controllers/trait.rest-taxonomy-traits.php:85
+msgid "Required to be true, as terms do not support trashing."
+msgstr ""
+
+#. translators: %s: taxonomy singular name
+#: build/includes/taxonomies/trait.taxonomy-helpers.php:21
+msgctxt "taxonomy singular name"
+msgid "Search %s"
+msgstr ""
+
+#. translators: %s: taxonomy plural name
+#: build/includes/taxonomies/trait.taxonomy-helpers.php:23
+msgctxt "taxonomy plural name"
+msgid "Popular %s"
+msgstr ""
+
+#. translators: %s: taxonomy plural name
+#: build/includes/taxonomies/trait.taxonomy-helpers.php:25
+msgctxt "taxonomy plural name"
+msgid "All %s"
+msgstr ""
+
+#. translators: %s: taxonomy singular name
+#: build/includes/taxonomies/trait.taxonomy-helpers.php:27
+msgctxt "taxonomy singular name"
+msgid "Parent %s"
+msgstr ""
+
+#. translators: %s: taxonomy singular name
+#: build/includes/taxonomies/trait.taxonomy-helpers.php:29
+msgctxt "taxonomy singular name"
+msgid "Parent %s:"
+msgstr ""
+
+#. translators: %s: taxonomy singular name
+#: build/includes/taxonomies/trait.taxonomy-helpers.php:31
+msgctxt "taxonomy singular name"
+msgid "Edit %s"
+msgstr ""
+
+#. translators: %s: taxonomy singular name
+#: build/includes/taxonomies/trait.taxonomy-helpers.php:33
+msgctxt "taxonomy singular name"
+msgid "View %s"
+msgstr ""
+
+#. translators: %s: taxonomy singular name
+#: build/includes/taxonomies/trait.taxonomy-helpers.php:35
+msgctxt "taxonomy singular name"
+msgid "Update %s"
+msgstr ""
+
+#. translators: %s: taxonomy singular name
+#: build/includes/taxonomies/trait.taxonomy-helpers.php:37
+msgctxt "taxonomy singular name"
+msgid "Add new %s"
+msgstr ""
+
+#. translators: %s: taxonomy singular name
+#: build/includes/taxonomies/trait.taxonomy-helpers.php:39
+msgctxt "taxonomy singular name"
+msgid "New %s name"
+msgstr ""
+
+#. translators: %s: taxonomy plural name
+#: build/includes/taxonomies/trait.taxonomy-helpers.php:41
+msgctxt "taxonomy plural name"
+msgid "Separate %s with commas"
+msgstr ""
+
+#. translators: %s: taxonomy plural name
+#: build/includes/taxonomies/trait.taxonomy-helpers.php:43
+msgctxt "taxonomy plural name"
+msgid "Add or remove %s"
+msgstr ""
+
+#. translators: %s: taxonomy plural name
+#: build/includes/taxonomies/trait.taxonomy-helpers.php:45
+msgctxt "taxonomy plural name"
+msgid "Choose most used %s"
+msgstr ""
+
+#. translators: %s: taxonomy plural name
+#: build/includes/taxonomies/trait.taxonomy-helpers.php:47
+msgctxt "taxonomy plural name"
+msgid "No %s found"
+msgstr ""
+
+#. translators: %s: taxonomy plural name
+#: build/includes/taxonomies/trait.taxonomy-helpers.php:49
+msgctxt "taxonomy plural name"
+msgid "No %s"
+msgstr ""
+
+#. translators: %s: taxonomy singular name
+#: build/includes/taxonomies/trait.taxonomy-helpers.php:51
+msgctxt "taxonomy singular name"
+msgid "Filter by %s"
+msgstr ""
+
+#. translators: %s: taxonomy plural name
+#: build/includes/taxonomies/trait.taxonomy-helpers.php:53
+msgctxt "taxonomy plural name"
+msgid "%s list navigation"
+msgstr ""
+
+#. translators: %s: taxonomy plural name
+#: build/includes/taxonomies/trait.taxonomy-helpers.php:55
+msgctxt "taxonomy plural name"
+msgid "%s list"
+msgstr ""
+
+#. translators: %s: taxonomy plural name
+#: build/includes/taxonomies/trait.taxonomy-helpers.php:57
+msgctxt "taxonomy plural name"
+msgid "Most used %s"
+msgstr ""
+
+#. translators: %s: taxonomy plural name
+#: build/includes/taxonomies/trait.taxonomy-helpers.php:59
+msgctxt "taxonomy plural name"
+msgid "&larr; Go to %s"
+msgstr ""
+
+#: build/includes/widgets/widget.stec.php:61
+#: build/assets/js/widgets/stec/admin.js:1
+msgid "Full Calendar"
+msgstr ""
+
+#: build/includes/widgets/widget.stec_events_list.php:57
+#: build/assets/js/dashboard/pages/home/home-lazy.js:1
+#: build/assets/js/widgets/events-list/admin.js:1
+msgid "Events List"
+msgstr ""
+
+#: build/includes/widgets/widget.stec_events_slider.php:57
+#: build/assets/js/dashboard/pages/home/home-lazy.js:1
+#: build/assets/js/widgets/events-slider/admin.js:1
+msgid "Events Slider"
+msgstr ""
+
+#: build/stec.php:32
+msgid "Unserializing instances of this class is forbidden."
+msgstr ""
+
+#: build/stec.php:36
+msgid "Cloning is forbidden."
+msgstr ""
+
+#. translators: %1$s: Premium plugin name, %2$s: Lite plugin name, %3$s: Lite plugin version
+#: build/stec.php:63
+msgid "%1$s is already installed. Please deactivate it before activating %2$s %3$s."
+msgstr ""
+
+#: build/stec.php:64
+msgid "Stachethemes Event Calendar"
+msgstr ""
+
+#: build/assets/js/487-lazy.js:1
+#: build/assets/js/3824-lazy.js:1
+#: build/assets/js/calendar/calendar-lazy.js:1
+#: build/assets/js/dashboard/pages/calendars/list-lazy.js:1
+#: build/assets/js/dashboard/pages/categories/list-lazy.js:1
+#: build/assets/js/dashboard/pages/guests/list-lazy.js:1
+#: build/assets/js/dashboard/pages/locations/list-lazy.js:1
+#: build/assets/js/dashboard/pages/organizers/list-lazy.js:1
+#: build/assets/js/widgets/events-list/admin.js:1
+#: build/assets/js/widgets/events-slider/admin.js:1
+#: build/assets/js/widgets/stec/admin.js:1
+msgid "Search"
+msgstr ""
+
+#: build/assets/js/1067-lazy.js:1
+#: build/assets/js/dashboard/settings-lazy.js:1
+#: build/assets/js/widgets/stec/admin.js:1
+msgid "Agenda"
+msgstr ""
+
+#: build/assets/js/1067-lazy.js:1
+#: build/assets/js/dashboard/settings-lazy.js:1
+#: build/assets/js/widgets/stec/admin.js:1
+msgid "Month"
+msgstr ""
+
+#: build/assets/js/1067-lazy.js:1
+#: build/assets/js/dashboard/settings-lazy.js:1
+#: build/assets/js/widgets/stec/admin.js:1
+msgid "Week"
+msgstr ""
+
+#: build/assets/js/1067-lazy.js:1
+#: build/assets/js/dashboard/settings-lazy.js:1
+#: build/assets/js/widgets/stec/admin.js:1
+msgid "Day"
+msgstr ""
+
+#: build/assets/js/1067-lazy.js:1
+#: build/assets/js/dashboard/settings-lazy.js:1
+#: build/assets/js/widgets/stec/admin.js:1
+msgid "Grid"
+msgstr ""
+
+#: build/assets/js/1067-lazy.js:1
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Box grid"
+msgstr ""
+
+#: build/assets/js/1067-lazy.js:1
+msgid "Uncategorized"
+msgstr ""
+
+#: build/assets/js/1067-lazy.js:1
+msgid "No location"
+msgstr ""
+
+#: build/assets/js/1067-lazy.js:1
+msgid "No organizer"
+msgstr ""
+
+#: build/assets/js/1067-lazy.js:1
+msgid "No guests"
+msgstr ""
+
+#: build/assets/js/1067-lazy.js:1
+msgctxt "Tab label"
+msgid "Introduction"
+msgstr ""
+
+#: build/assets/js/1067-lazy.js:1
+msgctxt "Tab label"
+msgid "Location"
+msgstr ""
+
+#: build/assets/js/1067-lazy.js:1
+msgctxt "Tab label"
+msgid "Schedule"
+msgstr ""
+
+#: build/assets/js/1067-lazy.js:1
+msgctxt "Tab label"
+msgid "Guests"
+msgstr ""
+
+#: build/assets/js/1067-lazy.js:1
+msgctxt "Tab label"
+msgid "Comments"
+msgstr ""
+
+#: build/assets/js/2776-lazy.js:1
+#: build/assets/js/3824-lazy.js:1
+msgid "Refreshing list"
+msgstr ""
+
+#: build/assets/js/2776-lazy.js:1
+msgid "No entries found"
+msgstr ""
+
+#: build/assets/js/2776-lazy.js:1
+#: build/assets/js/4887-lazy.js:1
+#: build/assets/js/dashboard/pages/events/archive-lazy.js:1
+#: build/assets/js/dashboard/pages/locations/upsert-lazy.js:1
+msgid "Are you sure you want to delete this item?"
+msgstr ""
+
+#: build/assets/js/2776-lazy.js:1
+#: build/assets/js/3824-lazy.js:1
+#: build/assets/js/4887-lazy.js:1
+#: build/assets/js/4940-lazy.js:1
+#: build/assets/js/8168-lazy.js:1
+#: build/assets/js/dashboard/pages/calendars/list-lazy.js:1
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+#: build/assets/js/dashboard/pages/categories/list-lazy.js:1
+#: build/assets/js/dashboard/pages/categories/upsert-lazy.js:1
+#: build/assets/js/dashboard/pages/events/archive-lazy.js:1
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+#: build/assets/js/dashboard/pages/guests/list-lazy.js:1
+#: build/assets/js/dashboard/pages/guests/upsert-lazy.js:1
+#: build/assets/js/dashboard/pages/locations/list-lazy.js:1
+#: build/assets/js/dashboard/pages/locations/upsert-lazy.js:1
+#: build/assets/js/dashboard/pages/organizers/list-lazy.js:1
+msgid "Delete"
+msgstr ""
+
+#: build/assets/js/2776-lazy.js:1
+#: build/assets/js/3824-lazy.js:1
+#: build/assets/js/4887-lazy.js:1
+#: build/assets/js/4940-lazy.js:1
+#: build/assets/js/dashboard/pages/events/archive-lazy.js:1
+#: build/assets/js/dashboard/pages/locations/upsert-lazy.js:1
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Cancel"
+msgstr ""
+
+#: build/assets/js/2776-lazy.js:1
+msgid "Are you use you want to delete all events from this calendar"
+msgstr ""
+
+#: build/assets/js/2776-lazy.js:1
+msgid "Are you sure you want to delete the selected items?"
+msgstr ""
+
+#: build/assets/js/2776-lazy.js:1
+#: build/assets/js/calendar/event/event-content-lazy.js:1
+msgid "Previous"
+msgstr ""
+
+#: build/assets/js/3328-lazy.js:1
+#: build/assets/js/widgets/events-list/admin.js:1
+#: build/assets/js/widgets/events-slider/admin.js:1
+#: build/assets/js/widgets/stec/admin.js:1
+msgid "An error occurred while fetching the data."
+msgstr ""
+
+#: build/assets/js/3328-lazy.js:1
+#: build/assets/js/3824-lazy.js:1
+#: build/assets/js/4887-lazy.js:1
+#: build/assets/js/4940-lazy.js:1
+#: build/assets/js/8168-lazy.js:1
+#: build/assets/js/calendar/event/event-content-lazy.js:1
+#: build/assets/js/dashboard/pages/calendars/list-lazy.js:1
+#: build/assets/js/dashboard/pages/categories/list-lazy.js:1
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+#: build/assets/js/dashboard/pages/guests/list-lazy.js:1
+#: build/assets/js/dashboard/pages/guests/upsert-lazy.js:1
+#: build/assets/js/dashboard/pages/locations/list-lazy.js:1
+#: build/assets/js/dashboard/pages/locations/upsert-lazy.js:1
+#: build/assets/js/dashboard/pages/organizers/list-lazy.js:1
+#: build/assets/js/dashboard/settings-lazy.js:1
+#: build/assets/js/widgets/events-list/admin.js:1
+#: build/assets/js/widgets/events-slider/admin.js:1
+#: build/assets/js/widgets/stec/admin.js:1
+msgid "Sorry, something went wrong"
+msgstr ""
+
+#: build/assets/js/3328-lazy.js:1
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+#: build/assets/js/dashboard/settings-lazy.js:1
+#: build/assets/js/widgets/events-list/admin.js:1
+#: build/assets/js/widgets/events-slider/admin.js:1
+#: build/assets/js/widgets/stec/admin.js:1
+msgid "Sunday"
+msgstr ""
+
+#: build/assets/js/3328-lazy.js:1
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+#: build/assets/js/dashboard/settings-lazy.js:1
+#: build/assets/js/widgets/events-list/admin.js:1
+#: build/assets/js/widgets/events-slider/admin.js:1
+#: build/assets/js/widgets/stec/admin.js:1
+msgid "Monday"
+msgstr ""
+
+#: build/assets/js/3328-lazy.js:1
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+#: build/assets/js/dashboard/settings-lazy.js:1
+#: build/assets/js/widgets/events-list/admin.js:1
+#: build/assets/js/widgets/events-slider/admin.js:1
+#: build/assets/js/widgets/stec/admin.js:1
+msgid "Tuesday"
+msgstr ""
+
+#: build/assets/js/3328-lazy.js:1
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+#: build/assets/js/dashboard/settings-lazy.js:1
+#: build/assets/js/widgets/events-list/admin.js:1
+#: build/assets/js/widgets/events-slider/admin.js:1
+#: build/assets/js/widgets/stec/admin.js:1
+msgid "Wednesday"
+msgstr ""
+
+#: build/assets/js/3328-lazy.js:1
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+#: build/assets/js/dashboard/settings-lazy.js:1
+#: build/assets/js/widgets/events-list/admin.js:1
+#: build/assets/js/widgets/events-slider/admin.js:1
+#: build/assets/js/widgets/stec/admin.js:1
+msgid "Thursday"
+msgstr ""
+
+#: build/assets/js/3328-lazy.js:1
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+#: build/assets/js/dashboard/settings-lazy.js:1
+#: build/assets/js/widgets/events-list/admin.js:1
+#: build/assets/js/widgets/events-slider/admin.js:1
+#: build/assets/js/widgets/stec/admin.js:1
+msgid "Friday"
+msgstr ""
+
+#: build/assets/js/3328-lazy.js:1
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+#: build/assets/js/dashboard/settings-lazy.js:1
+#: build/assets/js/widgets/events-list/admin.js:1
+#: build/assets/js/widgets/events-slider/admin.js:1
+#: build/assets/js/widgets/stec/admin.js:1
+msgid "Saturday"
+msgstr ""
+
+#: build/assets/js/3328-lazy.js:1
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+#: build/assets/js/widgets/events-list/admin.js:1
+#: build/assets/js/widgets/events-slider/admin.js:1
+#: build/assets/js/widgets/stec/admin.js:1
+msgid "January"
+msgstr ""
+
+#: build/assets/js/3328-lazy.js:1
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+#: build/assets/js/widgets/events-list/admin.js:1
+#: build/assets/js/widgets/events-slider/admin.js:1
+#: build/assets/js/widgets/stec/admin.js:1
+msgid "February"
+msgstr ""
+
+#: build/assets/js/3328-lazy.js:1
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+#: build/assets/js/widgets/events-list/admin.js:1
+#: build/assets/js/widgets/events-slider/admin.js:1
+#: build/assets/js/widgets/stec/admin.js:1
+msgid "March"
+msgstr ""
+
+#: build/assets/js/3328-lazy.js:1
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+#: build/assets/js/widgets/events-list/admin.js:1
+#: build/assets/js/widgets/events-slider/admin.js:1
+#: build/assets/js/widgets/stec/admin.js:1
+msgid "April"
+msgstr ""
+
+#: build/assets/js/3328-lazy.js:1
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+#: build/assets/js/widgets/events-list/admin.js:1
+#: build/assets/js/widgets/events-slider/admin.js:1
+#: build/assets/js/widgets/stec/admin.js:1
+msgid "May"
+msgstr ""
+
+#: build/assets/js/3328-lazy.js:1
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+#: build/assets/js/widgets/events-list/admin.js:1
+#: build/assets/js/widgets/events-slider/admin.js:1
+#: build/assets/js/widgets/stec/admin.js:1
+msgid "June"
+msgstr ""
+
+#: build/assets/js/3328-lazy.js:1
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+#: build/assets/js/widgets/events-list/admin.js:1
+#: build/assets/js/widgets/events-slider/admin.js:1
+#: build/assets/js/widgets/stec/admin.js:1
+msgid "July"
+msgstr ""
+
+#: build/assets/js/3328-lazy.js:1
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+#: build/assets/js/widgets/events-list/admin.js:1
+#: build/assets/js/widgets/events-slider/admin.js:1
+#: build/assets/js/widgets/stec/admin.js:1
+msgid "August"
+msgstr ""
+
+#: build/assets/js/3328-lazy.js:1
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+#: build/assets/js/widgets/events-list/admin.js:1
+#: build/assets/js/widgets/events-slider/admin.js:1
+#: build/assets/js/widgets/stec/admin.js:1
+msgid "September"
+msgstr ""
+
+#: build/assets/js/3328-lazy.js:1
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+#: build/assets/js/widgets/events-list/admin.js:1
+#: build/assets/js/widgets/events-slider/admin.js:1
+#: build/assets/js/widgets/stec/admin.js:1
+msgid "October"
+msgstr ""
+
+#: build/assets/js/3328-lazy.js:1
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+#: build/assets/js/widgets/events-list/admin.js:1
+#: build/assets/js/widgets/events-slider/admin.js:1
+#: build/assets/js/widgets/stec/admin.js:1
+msgid "November"
+msgstr ""
+
+#: build/assets/js/3328-lazy.js:1
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+#: build/assets/js/widgets/events-list/admin.js:1
+#: build/assets/js/widgets/events-slider/admin.js:1
+#: build/assets/js/widgets/stec/admin.js:1
+msgid "December"
+msgstr ""
+
+#: build/assets/js/3824-lazy.js:1
+msgid "Unassigned"
+msgstr ""
+
+#: build/assets/js/3824-lazy.js:1
+msgid "Filter by %s"
+msgstr ""
+
+#: build/assets/js/3824-lazy.js:1
+#: build/assets/js/widgets/events-list/admin.js:1
+#: build/assets/js/widgets/events-slider/admin.js:1
+#: build/assets/js/widgets/stec/admin.js:1
+msgid "Min date"
+msgstr ""
+
+#: build/assets/js/3824-lazy.js:1
+#: build/assets/js/widgets/events-list/admin.js:1
+#: build/assets/js/widgets/events-slider/admin.js:1
+#: build/assets/js/widgets/stec/admin.js:1
+msgid "Max date"
+msgstr ""
+
+#: build/assets/js/3824-lazy.js:1
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+#: build/assets/js/dashboard/pages/categories/upsert-lazy.js:1
+msgid "Date"
+msgstr ""
+
+#: build/assets/js/3824-lazy.js:1
+#: build/assets/js/4940-lazy.js:1
+msgid "Apply"
+msgstr ""
+
+#: build/assets/js/3824-lazy.js:1
+#: build/assets/js/4887-lazy.js:1
+msgid "Clear"
+msgstr ""
+
+#: build/assets/js/3824-lazy.js:1
+msgid "Duplicate event"
+msgstr ""
+
+#: build/assets/js/3824-lazy.js:1
+#: build/assets/js/dashboard/pages/calendars/list-lazy.js:1
+#: build/assets/js/dashboard/pages/categories/list-lazy.js:1
+#: build/assets/js/dashboard/pages/guests/list-lazy.js:1
+#: build/assets/js/dashboard/pages/locations/list-lazy.js:1
+#: build/assets/js/dashboard/pages/organizers/list-lazy.js:1
+msgid "Duplicate"
+msgstr ""
+
+#: build/assets/js/3824-lazy.js:1
+msgid "Recurrence override"
+msgstr ""
+
+#: build/assets/js/3824-lazy.js:1
+msgid "Select to use the duplicate as a recurrence override"
+msgstr ""
+
+#: build/assets/js/3824-lazy.js:1
+msgid "Recurrence date"
+msgstr ""
+
+#: build/assets/js/3824-lazy.js:1
+msgid "Select recurrence date"
+msgstr ""
+
+#: build/assets/js/3824-lazy.js:1
+#: build/assets/js/4940-lazy.js:1
+#: build/assets/js/8168-lazy.js:1
+#: build/assets/js/calendar/event/event-content-lazy.js:1
+#: build/assets/js/dashboard/pages/calendars/list-lazy.js:1
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+#: build/assets/js/dashboard/pages/categories/list-lazy.js:1
+#: build/assets/js/dashboard/pages/categories/upsert-lazy.js:1
+#: build/assets/js/dashboard/pages/events/archive-lazy.js:1
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+#: build/assets/js/dashboard/pages/guests/list-lazy.js:1
+#: build/assets/js/dashboard/pages/guests/upsert-lazy.js:1
+#: build/assets/js/dashboard/pages/locations/list-lazy.js:1
+#: build/assets/js/dashboard/pages/organizers/list-lazy.js:1
+msgid "Another action is in progress"
+msgstr ""
+
+#: build/assets/js/3824-lazy.js:1
+msgid "Event not found"
+msgstr ""
+
+#: build/assets/js/3824-lazy.js:1
+#: build/assets/js/dashboard/pages/calendars/list-lazy.js:1
+#: build/assets/js/dashboard/pages/categories/list-lazy.js:1
+#: build/assets/js/dashboard/pages/guests/list-lazy.js:1
+#: build/assets/js/dashboard/pages/locations/list-lazy.js:1
+#: build/assets/js/dashboard/pages/organizers/list-lazy.js:1
+msgid "Duplicated"
+msgstr ""
+
+#: build/assets/js/3824-lazy.js:1
+#: build/assets/js/dashboard/pages/calendars/list-lazy.js:1
+#: build/assets/js/dashboard/pages/categories/list-lazy.js:1
+#: build/assets/js/dashboard/pages/guests/list-lazy.js:1
+#: build/assets/js/dashboard/pages/locations/list-lazy.js:1
+#: build/assets/js/dashboard/pages/organizers/list-lazy.js:1
+msgid "Duplicating"
+msgstr ""
+
+#: build/assets/js/3824-lazy.js:1
+#: build/assets/js/dashboard/pages/calendars/list-lazy.js:1
+#: build/assets/js/dashboard/pages/categories/list-lazy.js:1
+#: build/assets/js/dashboard/pages/guests/list-lazy.js:1
+#: build/assets/js/dashboard/pages/locations/list-lazy.js:1
+#: build/assets/js/dashboard/pages/organizers/list-lazy.js:1
+msgid "Select all"
+msgstr ""
+
+#: build/assets/js/3824-lazy.js:1
+#: build/assets/js/dashboard/pages/calendars/list-lazy.js:1
+#: build/assets/js/dashboard/pages/categories/list-lazy.js:1
+#: build/assets/js/dashboard/pages/guests/list-lazy.js:1
+#: build/assets/js/dashboard/pages/locations/list-lazy.js:1
+#: build/assets/js/dashboard/pages/organizers/list-lazy.js:1
+msgid "No items selected"
+msgstr ""
+
+#: build/assets/js/3824-lazy.js:1
+#: build/assets/js/dashboard/pages/calendars/list-lazy.js:1
+#: build/assets/js/dashboard/pages/categories/list-lazy.js:1
+#: build/assets/js/dashboard/pages/guests/list-lazy.js:1
+#: build/assets/js/dashboard/pages/locations/list-lazy.js:1
+#: build/assets/js/dashboard/pages/organizers/list-lazy.js:1
+msgid "Items deleted"
+msgstr ""
+
+#: build/assets/js/3824-lazy.js:1
+#: build/assets/js/dashboard/pages/calendars/list-lazy.js:1
+#: build/assets/js/dashboard/pages/categories/list-lazy.js:1
+#: build/assets/js/dashboard/pages/guests/list-lazy.js:1
+#: build/assets/js/dashboard/pages/locations/list-lazy.js:1
+#: build/assets/js/dashboard/pages/organizers/list-lazy.js:1
+msgid "Deleting items"
+msgstr ""
+
+#: build/assets/js/3824-lazy.js:1
+msgid "Unarchive"
+msgstr ""
+
+#: build/assets/js/3824-lazy.js:1
+msgid "Items unarchived"
+msgstr ""
+
+#: build/assets/js/3824-lazy.js:1
+msgid "Unarchiving items"
+msgstr ""
+
+#: build/assets/js/3824-lazy.js:1
+msgid "Archive"
+msgstr ""
+
+#: build/assets/js/3824-lazy.js:1
+msgid "Items archived"
+msgstr ""
+
+#: build/assets/js/3824-lazy.js:1
+msgid "Archiving items"
+msgstr ""
+
+#: build/assets/js/3824-lazy.js:1
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Approve"
+msgstr ""
+
+#: build/assets/js/3824-lazy.js:1
+msgid "Event approved"
+msgstr ""
+
+#: build/assets/js/3824-lazy.js:1
+msgid "Approving"
+msgstr ""
+
+#: build/assets/js/3824-lazy.js:1
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "View"
+msgstr ""
+
+#: build/assets/js/3824-lazy.js:1
+#: build/assets/js/dashboard/pages/calendars/list-lazy.js:1
+#: build/assets/js/dashboard/pages/categories/list-lazy.js:1
+#: build/assets/js/dashboard/pages/guests/list-lazy.js:1
+#: build/assets/js/dashboard/pages/locations/list-lazy.js:1
+#: build/assets/js/dashboard/pages/organizers/list-lazy.js:1
+msgid "Edit"
+msgstr ""
+
+#: build/assets/js/3824-lazy.js:1
+#: build/assets/js/4940-lazy.js:1
+#: build/assets/js/8168-lazy.js:1
+#: build/assets/js/dashboard/pages/calendars/list-lazy.js:1
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+#: build/assets/js/dashboard/pages/categories/list-lazy.js:1
+#: build/assets/js/dashboard/pages/categories/upsert-lazy.js:1
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+#: build/assets/js/dashboard/pages/guests/list-lazy.js:1
+#: build/assets/js/dashboard/pages/guests/upsert-lazy.js:1
+#: build/assets/js/dashboard/pages/locations/list-lazy.js:1
+#: build/assets/js/dashboard/pages/organizers/list-lazy.js:1
+msgid "Deleted"
+msgstr ""
+
+#: build/assets/js/3824-lazy.js:1
+#: build/assets/js/4940-lazy.js:1
+#: build/assets/js/8168-lazy.js:1
+#: build/assets/js/dashboard/pages/calendars/list-lazy.js:1
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+#: build/assets/js/dashboard/pages/categories/list-lazy.js:1
+#: build/assets/js/dashboard/pages/categories/upsert-lazy.js:1
+#: build/assets/js/dashboard/pages/events/archive-lazy.js:1
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+#: build/assets/js/dashboard/pages/guests/list-lazy.js:1
+#: build/assets/js/dashboard/pages/guests/upsert-lazy.js:1
+#: build/assets/js/dashboard/pages/locations/list-lazy.js:1
+#: build/assets/js/dashboard/pages/organizers/list-lazy.js:1
+msgid "Deleting"
+msgstr ""
+
+#: build/assets/js/3824-lazy.js:1
+msgctxt "Manage events tag label"
+msgid "Pending approval"
+msgstr ""
+
+#: build/assets/js/3824-lazy.js:1
+msgctxt "Manage events tag label"
+msgid "Featured"
+msgstr ""
+
+#: build/assets/js/3824-lazy.js:1
+msgid "Recurrent"
+msgstr ""
+
+#: build/assets/js/3824-lazy.js:1
+msgctxt "Manage events tag title"
+msgid "Recurrent event"
+msgstr ""
+
+#: build/assets/js/3824-lazy.js:1
+msgctxt "Manage events tag label for recurrence override"
+msgid "Recurrence override"
+msgstr ""
+
+#: build/assets/js/4887-lazy.js:1
+msgid "Search icon"
+msgstr ""
+
+#: build/assets/js/4887-lazy.js:1
+msgid "Images uploaded successfully"
+msgstr ""
+
+#: build/assets/js/4887-lazy.js:1
+msgctxt "Upload images"
+msgid "Please wait"
+msgstr ""
+
+#: build/assets/js/4887-lazy.js:1
+msgctxt "Upload images"
+msgid "Upload"
+msgstr ""
+
+#: build/assets/js/4887-lazy.js:1
+msgid "Remove image"
+msgstr ""
+
+#: build/assets/js/4887-lazy.js:1
+msgid "Image %s is too large. Maximum allowed size is 2MB."
+msgstr ""
+
+#: build/assets/js/4887-lazy.js:1
+msgid "Drag and drop images here"
+msgstr ""
+
+#: build/assets/js/4887-lazy.js:1
+msgctxt "Drag and drop images here or..."
+msgid "or"
+msgstr ""
+
+#: build/assets/js/4887-lazy.js:1
+msgid "Browse files"
+msgstr ""
+
+#: build/assets/js/4887-lazy.js:1
+#: build/assets/js/dashboard/pages/locations/upsert-lazy.js:1
+msgid "User id"
+msgstr ""
+
+#: build/assets/js/4887-lazy.js:1
+#: build/assets/js/dashboard/pages/locations/upsert-lazy.js:1
+msgid "User display name"
+msgstr ""
+
+#: build/assets/js/4887-lazy.js:1
+#: build/assets/js/dashboard/pages/locations/upsert-lazy.js:1
+msgid "User e-mail"
+msgstr ""
+
+#: build/assets/js/4887-lazy.js:1
+#: build/assets/js/dashboard/pages/locations/upsert-lazy.js:1
+msgid "Change author"
+msgstr ""
+
+#: build/assets/js/4887-lazy.js:1
+#: build/assets/js/dashboard/pages/locations/upsert-lazy.js:1
+msgid "Author updated"
+msgstr ""
+
+#: build/assets/js/4887-lazy.js:1
+#: build/assets/js/dashboard/pages/locations/upsert-lazy.js:1
+msgid "Searching..."
+msgstr ""
+
+#: build/assets/js/4887-lazy.js:1
+#: build/assets/js/dashboard/pages/locations/upsert-lazy.js:1
+msgid "User not found"
+msgstr ""
+
+#: build/assets/js/4887-lazy.js:1
+#: build/assets/js/dashboard/pages/locations/upsert-lazy.js:1
+msgid "Search user"
+msgstr ""
+
+#: build/assets/js/4887-lazy.js:1
+#: build/assets/js/dashboard/pages/locations/upsert-lazy.js:1
+msgid "Search user by id, name or email"
+msgstr ""
+
+#: build/assets/js/4887-lazy.js:1
+#: build/assets/js/dashboard/pages/locations/upsert-lazy.js:1
+msgid "Author user id"
+msgstr ""
+
+#: build/assets/js/4887-lazy.js:1
+#: build/assets/js/dashboard/pages/locations/upsert-lazy.js:1
+msgid "Current author user id"
+msgstr ""
+
+#: build/assets/js/4940-lazy.js:1
+msgid "Find on Map"
+msgstr ""
+
+#: build/assets/js/4940-lazy.js:1
+msgid "Location not found"
+msgstr ""
+
+#: build/assets/js/4940-lazy.js:1
+msgid "Search Location"
+msgstr ""
+
+#: build/assets/js/4940-lazy.js:1
+#: build/assets/js/8168-lazy.js:1
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+#: build/assets/js/dashboard/pages/categories/upsert-lazy.js:1
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+#: build/assets/js/dashboard/pages/guests/upsert-lazy.js:1
+msgid "Edit permission"
+msgstr ""
+
+#: build/assets/js/4940-lazy.js:1
+msgid "Who can edit this location"
+msgstr ""
+
+#: build/assets/js/4940-lazy.js:1
+#: build/assets/js/8168-lazy.js:1
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+#: build/assets/js/dashboard/pages/categories/upsert-lazy.js:1
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+#: build/assets/js/dashboard/pages/guests/upsert-lazy.js:1
+msgid "The edit permission cannot be empty"
+msgstr ""
+
+#: build/assets/js/4940-lazy.js:1
+#: build/assets/js/8168-lazy.js:1
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+#: build/assets/js/dashboard/pages/categories/upsert-lazy.js:1
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+#: build/assets/js/dashboard/pages/guests/upsert-lazy.js:1
+msgid "Use permission"
+msgstr ""
+
+#: build/assets/js/4940-lazy.js:1
+msgid "Who can add this location to their events"
+msgstr ""
+
+#: build/assets/js/4940-lazy.js:1
+#: build/assets/js/8168-lazy.js:1
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+#: build/assets/js/dashboard/pages/categories/upsert-lazy.js:1
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+#: build/assets/js/dashboard/pages/guests/upsert-lazy.js:1
+msgid "The use permission cannot be empty"
+msgstr ""
+
+#: build/assets/js/4940-lazy.js:1
+msgid "Lng, Lat"
+msgstr ""
+
+#: build/assets/js/4940-lazy.js:1
+msgid "Coordinates added"
+msgstr ""
+
+#: build/assets/js/4940-lazy.js:1
+msgid "Type"
+msgstr ""
+
+#: build/assets/js/4940-lazy.js:1
+msgid "Physical location"
+msgstr ""
+
+#: build/assets/js/4940-lazy.js:1
+msgid "Virtual location"
+msgstr ""
+
+#: build/assets/js/4940-lazy.js:1
+msgid "Choose location type"
+msgstr ""
+
+#: build/assets/js/4940-lazy.js:1
+#: build/assets/js/calendar/event/event-content-lazy.js:1
+msgid "Country"
+msgstr ""
+
+#: build/assets/js/4940-lazy.js:1
+msgid "Country name"
+msgstr ""
+
+#: build/assets/js/4940-lazy.js:1
+msgid "State/Province"
+msgstr ""
+
+#: build/assets/js/4940-lazy.js:1
+msgid "State or Province if applicable"
+msgstr ""
+
+#: build/assets/js/4940-lazy.js:1
+#: build/assets/js/calendar/event/event-content-lazy.js:1
+msgid "City"
+msgstr ""
+
+#: build/assets/js/4940-lazy.js:1
+msgid "City name"
+msgstr ""
+
+#: build/assets/js/4940-lazy.js:1
+msgid "City name if applicable"
+msgstr ""
+
+#: build/assets/js/4940-lazy.js:1
+#: build/assets/js/calendar/event/event-content-lazy.js:1
+msgid "Postal code"
+msgstr ""
+
+#: build/assets/js/4940-lazy.js:1
+msgid "Postal code if applicable"
+msgstr ""
+
+#: build/assets/js/4940-lazy.js:1
+#: build/assets/js/calendar/event/event-content-lazy.js:1
+msgid "Address"
+msgstr ""
+
+#: build/assets/js/4940-lazy.js:1
+msgid "Location address"
+msgstr ""
+
+#: build/assets/js/4940-lazy.js:1
+msgid "Virtual location address (https://...)"
+msgstr ""
+
+#: build/assets/js/4940-lazy.js:1
+msgid "Protected address"
+msgstr ""
+
+#: build/assets/js/4940-lazy.js:1
+msgid "Only logged-in users can view the address"
+msgstr ""
+
+#: build/assets/js/4940-lazy.js:1
+msgid "Edit location"
+msgstr ""
+
+#: build/assets/js/4940-lazy.js:1
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Add new location"
+msgstr ""
+
+#: build/assets/js/4940-lazy.js:1
+msgid "Location name"
+msgstr ""
+
+#: build/assets/js/4940-lazy.js:1
+msgid "The location must have a name"
+msgstr ""
+
+#: build/assets/js/4940-lazy.js:1
+msgid "Location slug"
+msgstr ""
+
+#: build/assets/js/4940-lazy.js:1
+msgid "The location must have a valid slug"
+msgstr ""
+
+#: build/assets/js/4940-lazy.js:1
+#: build/assets/js/8168-lazy.js:1
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+#: build/assets/js/dashboard/pages/categories/upsert-lazy.js:1
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+#: build/assets/js/dashboard/pages/guests/upsert-lazy.js:1
+msgid "Color"
+msgstr ""
+
+#: build/assets/js/4940-lazy.js:1
+msgid "Location color"
+msgstr ""
+
+#: build/assets/js/4940-lazy.js:1
+#: build/assets/js/8168-lazy.js:1
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+#: build/assets/js/dashboard/pages/guests/upsert-lazy.js:1
+msgid "Description"
+msgstr ""
+
+#: build/assets/js/4940-lazy.js:1
+msgid "About this location"
+msgstr ""
+
+#: build/assets/js/4940-lazy.js:1
+#: build/assets/js/8168-lazy.js:1
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+#: build/assets/js/dashboard/pages/categories/upsert-lazy.js:1
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+#: build/assets/js/dashboard/pages/guests/upsert-lazy.js:1
+msgid "Update"
+msgstr ""
+
+#: build/assets/js/4940-lazy.js:1
+#: build/assets/js/8168-lazy.js:1
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+#: build/assets/js/dashboard/pages/categories/upsert-lazy.js:1
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+#: build/assets/js/dashboard/pages/guests/upsert-lazy.js:1
+msgid "Create"
+msgstr ""
+
+#: build/assets/js/4940-lazy.js:1
+msgid "The location must have valid coordinates"
+msgstr ""
+
+#: build/assets/js/4940-lazy.js:1
+msgid "A location with this name already exists"
+msgstr ""
+
+#: build/assets/js/4940-lazy.js:1
+#: build/assets/js/8168-lazy.js:1
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+#: build/assets/js/dashboard/pages/categories/upsert-lazy.js:1
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+#: build/assets/js/dashboard/pages/guests/upsert-lazy.js:1
+msgid "Created"
+msgstr ""
+
+#: build/assets/js/4940-lazy.js:1
+#: build/assets/js/8168-lazy.js:1
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+#: build/assets/js/dashboard/pages/categories/upsert-lazy.js:1
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+#: build/assets/js/dashboard/pages/guests/upsert-lazy.js:1
+msgid "Updated"
+msgstr ""
+
+#: build/assets/js/4940-lazy.js:1
+#: build/assets/js/8168-lazy.js:1
+#: build/assets/js/calendar/event/event-content-lazy.js:1
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+#: build/assets/js/dashboard/pages/categories/upsert-lazy.js:1
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+#: build/assets/js/dashboard/pages/guests/upsert-lazy.js:1
+msgid "Saving"
+msgstr ""
+
+#: build/assets/js/4940-lazy.js:1
+#: build/assets/js/8168-lazy.js:1
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+#: build/assets/js/dashboard/pages/categories/upsert-lazy.js:1
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+#: build/assets/js/dashboard/pages/guests/upsert-lazy.js:1
+msgid "Reset form"
+msgstr ""
+
+#: build/assets/js/4940-lazy.js:1
+#: build/assets/js/8168-lazy.js:1
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+#: build/assets/js/dashboard/pages/categories/upsert-lazy.js:1
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+#: build/assets/js/dashboard/pages/guests/upsert-lazy.js:1
+msgid "The form has been reset"
+msgstr ""
+
+#: build/assets/js/4940-lazy.js:1
+#: build/assets/js/8168-lazy.js:1
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+#: build/assets/js/dashboard/pages/categories/upsert-lazy.js:1
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+#: build/assets/js/dashboard/pages/guests/upsert-lazy.js:1
+msgid "Back"
+msgstr ""
+
+#: build/assets/js/4940-lazy.js:1
+#: build/assets/js/8168-lazy.js:1
+#: build/assets/js/dashboard/pages/calendars/list-lazy.js:1
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+#: build/assets/js/dashboard/pages/categories/list-lazy.js:1
+#: build/assets/js/dashboard/pages/categories/upsert-lazy.js:1
+#: build/assets/js/dashboard/pages/events/archive-lazy.js:1
+#: build/assets/js/dashboard/pages/events/list-lazy.js:1
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+#: build/assets/js/dashboard/pages/guests/list-lazy.js:1
+#: build/assets/js/dashboard/pages/guests/upsert-lazy.js:1
+#: build/assets/js/dashboard/pages/locations/list-lazy.js:1
+#: build/assets/js/dashboard/pages/organizers/list-lazy.js:1
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Home"
+msgstr ""
+
+#: build/assets/js/4940-lazy.js:1
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Manage locations"
+msgstr ""
+
+#: build/assets/js/7390-lazy.js:1
+#: build/assets/js/widgets/events-list/lazy-events-list-lazy.js:1
+#: build/assets/js/widgets/events-slider/lazy-events-slider-lazy.js:1
+msgid "Pending Approval"
+msgstr ""
+
+#: build/assets/js/7390-lazy.js:1
+#: build/assets/js/widgets/events-list/lazy-events-list-lazy.js:1
+#: build/assets/js/widgets/events-slider/lazy-events-slider-lazy.js:1
+msgid "Featured"
+msgstr ""
+
+#: build/assets/js/7390-lazy.js:1
+#: build/assets/js/widgets/events-list/lazy-events-list-lazy.js:1
+#: build/assets/js/widgets/events-slider/lazy-events-slider-lazy.js:1
+msgid "Health measures"
+msgstr ""
+
+#: build/assets/js/7390-lazy.js:1
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+#: build/assets/js/widgets/events-list/admin.js:1
+#: build/assets/js/widgets/events-list/lazy-events-list-lazy.js:1
+#: build/assets/js/widgets/events-slider/admin.js:1
+#: build/assets/js/widgets/events-slider/lazy-events-slider-lazy.js:1
+msgid "Postponed"
+msgstr ""
+
+#: build/assets/js/7390-lazy.js:1
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+#: build/assets/js/widgets/events-list/admin.js:1
+#: build/assets/js/widgets/events-list/lazy-events-list-lazy.js:1
+#: build/assets/js/widgets/events-slider/admin.js:1
+#: build/assets/js/widgets/events-slider/lazy-events-slider-lazy.js:1
+msgid "Rescheduled"
+msgstr ""
+
+#: build/assets/js/7390-lazy.js:1
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+#: build/assets/js/widgets/events-list/admin.js:1
+#: build/assets/js/widgets/events-list/lazy-events-list-lazy.js:1
+#: build/assets/js/widgets/events-slider/admin.js:1
+#: build/assets/js/widgets/events-slider/lazy-events-slider-lazy.js:1
+msgid "Moved Online"
+msgstr ""
+
+#: build/assets/js/7390-lazy.js:1
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+#: build/assets/js/widgets/events-list/admin.js:1
+#: build/assets/js/widgets/events-list/lazy-events-list-lazy.js:1
+#: build/assets/js/widgets/events-slider/admin.js:1
+#: build/assets/js/widgets/events-slider/lazy-events-slider-lazy.js:1
+msgid "Cancelled"
+msgstr ""
+
+#: build/assets/js/7390-lazy.js:1
+#: build/assets/js/widgets/events-list/lazy-events-list-lazy.js:1
+#: build/assets/js/widgets/events-slider/lazy-events-slider-lazy.js:1
+msgid "Live"
+msgstr ""
+
+#: build/assets/js/8168-lazy.js:1
+#: build/assets/js/dashboard/pages/guests/upsert-lazy.js:1
+msgid "Social link URL"
+msgstr ""
+
+#: build/assets/js/8168-lazy.js:1
+#: build/assets/js/dashboard/pages/guests/upsert-lazy.js:1
+msgid "Add social link"
+msgstr ""
+
+#: build/assets/js/8168-lazy.js:1
+msgid "Who can edit this organizer"
+msgstr ""
+
+#: build/assets/js/8168-lazy.js:1
+msgid "Who can add this organizer to their events"
+msgstr ""
+
+#: build/assets/js/8168-lazy.js:1
+msgid "Edit organizer"
+msgstr ""
+
+#: build/assets/js/8168-lazy.js:1
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Add new organizer"
+msgstr ""
+
+#: build/assets/js/8168-lazy.js:1
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+#: build/assets/js/dashboard/pages/guests/upsert-lazy.js:1
+msgid "Photo"
+msgstr ""
+
+#: build/assets/js/8168-lazy.js:1
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+#: build/assets/js/dashboard/pages/guests/upsert-lazy.js:1
+msgid "Add Photo"
+msgstr ""
+
+#: build/assets/js/8168-lazy.js:1
+msgid "Add photo for this organizer from the WordPress Media Library"
+msgstr ""
+
+#: build/assets/js/8168-lazy.js:1
+msgid "Organizer name"
+msgstr ""
+
+#: build/assets/js/8168-lazy.js:1
+msgid "The organizer must have a name"
+msgstr ""
+
+#: build/assets/js/8168-lazy.js:1
+msgid "Organizer slug"
+msgstr ""
+
+#: build/assets/js/8168-lazy.js:1
+msgid "The organizer must have a valid slug"
+msgstr ""
+
+#: build/assets/js/8168-lazy.js:1
+msgid "Verified Organizer"
+msgstr ""
+
+#: build/assets/js/8168-lazy.js:1
+msgid "Verified organizers display a trustworthiness badge on the front-end"
+msgstr ""
+
+#: build/assets/js/8168-lazy.js:1
+msgid "Organizer color"
+msgstr ""
+
+#: build/assets/js/8168-lazy.js:1
+msgid "About this Organizer"
+msgstr ""
+
+#: build/assets/js/8168-lazy.js:1
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+#: build/assets/js/dashboard/pages/guests/upsert-lazy.js:1
+msgid "Social Links"
+msgstr ""
+
+#: build/assets/js/8168-lazy.js:1
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+#: build/assets/js/dashboard/pages/guests/upsert-lazy.js:1
+msgid "Social links like Facebook, Twitter, Instagram..."
+msgstr ""
+
+#: build/assets/js/8168-lazy.js:1
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+#: build/assets/js/dashboard/pages/guests/upsert-lazy.js:1
+msgid "Email"
+msgstr ""
+
+#: build/assets/js/8168-lazy.js:1
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+#: build/assets/js/dashboard/pages/guests/upsert-lazy.js:1
+msgid "Contact email"
+msgstr ""
+
+#: build/assets/js/8168-lazy.js:1
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+#: build/assets/js/dashboard/pages/guests/upsert-lazy.js:1
+msgid "Invalid email"
+msgstr ""
+
+#: build/assets/js/8168-lazy.js:1
+msgid "An organizer with this name already exists"
+msgstr ""
+
+#: build/assets/js/8168-lazy.js:1
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Manage organizers"
+msgstr ""
+
+#: build/assets/js/9952-lazy.js:1
+#: build/assets/js/calendar/layout/grid-lazy.js:1
+msgid "Starts in"
+msgstr ""
+
+#: build/assets/js/9952-lazy.js:1
+#: build/assets/js/calendar/event/event-content-lazy.js:1
+#: build/assets/js/calendar/layout/grid-lazy.js:1
+msgid "In progress"
+msgstr ""
+
+#: build/assets/js/9952-lazy.js:1
+#: build/assets/js/calendar/event/event-content-lazy.js:1
+#: build/assets/js/calendar/layout/grid-lazy.js:1
+msgid "Expired"
+msgstr ""
+
+#: build/assets/js/9952-lazy.js:1
+#: build/assets/js/calendar/event/event-content-lazy.js:1
+#: build/assets/js/calendar/layout/grid-lazy.js:1
+msgid "Days"
+msgstr ""
+
+#: build/assets/js/9952-lazy.js:1
+#: build/assets/js/calendar/event/event-content-lazy.js:1
+#: build/assets/js/calendar/layout/grid-lazy.js:1
+msgid "Hours"
+msgstr ""
+
+#: build/assets/js/9952-lazy.js:1
+#: build/assets/js/calendar/event/event-content-lazy.js:1
+#: build/assets/js/calendar/layout/grid-lazy.js:1
+msgid "Minutes"
+msgstr ""
+
+#: build/assets/js/9952-lazy.js:1
+#: build/assets/js/calendar/event/event-content-lazy.js:1
+#: build/assets/js/calendar/layout/grid-lazy.js:1
+msgid "%dD %dH %dM %dS"
+msgstr ""
+
+#: build/assets/js/9952-lazy.js:1
+#: build/assets/js/calendar/event/event-content-lazy.js:1
+#: build/assets/js/calendar/layout/grid-lazy.js:1
+msgid "Seconds"
+msgstr ""
+
+#: build/assets/js/9952-lazy.js:1
+#: build/assets/js/calendar/layout/agenda-lazy.js:1
+#: build/assets/js/calendar/layout/boxgrid-lazy.js:1
+#: build/assets/js/calendar/layout/day-lazy.js:1
+#: build/assets/js/calendar/layout/grid-lazy.js:1
+msgid "Show more"
+msgstr ""
+
+#: build/assets/js/9952-lazy.js:1
+msgctxt "+n more event(s)"
+msgid "more"
+msgid_plural "more"
+msgstr[0] ""
+msgstr[1] ""
+
+#: build/assets/js/calendar/calendar-lazy.js:1
+msgid "Loading calendar"
+msgstr ""
+
+#: build/assets/js/calendar/calendar-lazy.js:1
+msgid "Please note that certain changes may require you to reload the page in order to see them take effect on the front-end"
+msgstr ""
+
+#: build/assets/js/calendar/calendar-lazy.js:1
+msgid "Calendar Dashboard"
+msgstr ""
+
+#: build/assets/js/calendar/calendar-lazy.js:1
+msgid "Select All"
+msgstr ""
+
+#: build/assets/js/calendar/calendar-lazy.js:1
+msgid "Search %s"
+msgstr ""
+
+#: build/assets/js/calendar/calendar-lazy.js:1
+msgid "Filter"
+msgstr ""
+
+#: build/assets/js/calendar/calendar-lazy.js:1
+msgid "Today"
+msgstr ""
+
+#: build/assets/js/calendar/calendar-lazy.js:1
+msgid "Search event"
+msgstr ""
+
+#: build/assets/js/calendar/calendar-lazy.js:1
+#: build/assets/js/calendar/layout/agenda-lazy.js:1
+msgid "No events found"
+msgstr ""
+
+#: build/assets/js/calendar/calendar-lazy.js:1
+msgid "Searching for %s"
+msgstr ""
+
+#: build/assets/js/calendar/event/event-content-lazy.js:1
+msgid "Download"
+msgstr ""
+
+#: build/assets/js/calendar/event/event-content-lazy.js:1
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Attachments"
+msgstr ""
+
+#: build/assets/js/calendar/event/event-content-lazy.js:1
+msgid "Starting in"
+msgstr ""
+
+#: build/assets/js/calendar/event/event-content-lazy.js:1
+msgid "Read more"
+msgstr ""
+
+#: build/assets/js/calendar/event/event-content-lazy.js:1
+msgid "State"
+msgstr ""
+
+#: build/assets/js/calendar/event/event-content-lazy.js:1
+msgid "Directions"
+msgstr ""
+
+#: build/assets/js/calendar/event/event-content-lazy.js:1
+msgid "Enter start address"
+msgstr ""
+
+#: build/assets/js/calendar/event/event-content-lazy.js:1
+msgid "Sorry, you have disabled this site from accessing your location"
+msgstr ""
+
+#: build/assets/js/calendar/event/event-content-lazy.js:1
+msgid "Find my location"
+msgstr ""
+
+#: build/assets/js/calendar/event/event-content-lazy.js:1
+msgid "Get directions"
+msgstr ""
+
+#: build/assets/js/calendar/event/event-content-lazy.js:1
+msgctxt "person"
+msgid "Verified"
+msgstr ""
+
+#: build/assets/js/calendar/event/event-content-lazy.js:1
+msgid "Import to Google Calendar"
+msgstr ""
+
+#: build/assets/js/calendar/event/event-content-lazy.js:1
+msgid "Only logged-in users can see this location"
+msgstr ""
+
+#: build/assets/js/calendar/event/event-content-lazy.js:1
+msgid "Virtual"
+msgstr ""
+
+#: build/assets/js/calendar/event/event-content-lazy.js:1
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Details"
+msgstr ""
+
+#: build/assets/js/calendar/event/event-content-lazy.js:1
+msgid "Join this event"
+msgstr ""
+
+#: build/assets/js/calendar/event/event-content-lazy.js:1
+msgid "Copy address link"
+msgstr ""
+
+#: build/assets/js/calendar/event/event-content-lazy.js:1
+msgid "Link copied to clipboard"
+msgstr ""
+
+#: build/assets/js/calendar/event/event-content-lazy.js:1
+msgid "Unable to copy link to clipboard"
+msgstr ""
+
+#: build/assets/js/calendar/event/event-content-lazy.js:1
+msgid "This event has health safety measures put in place"
+msgstr ""
+
+#: build/assets/js/calendar/event/event-content-lazy.js:1
+msgid "All attendees are required to wear face masks"
+msgstr ""
+
+#: build/assets/js/calendar/event/event-content-lazy.js:1
+msgid "All attendees will undergo temperature screening upon entry"
+msgstr ""
+
+#: build/assets/js/calendar/event/event-content-lazy.js:1
+msgid "All attendees are required to maintain a safe physical distance"
+msgstr ""
+
+#: build/assets/js/calendar/event/event-content-lazy.js:1
+msgid "All attendees are required to provide their contact information for contact tracing purposes"
+msgstr ""
+
+#: build/assets/js/calendar/event/event-content-lazy.js:1
+msgid "All attendees are required to have valid vaccination certificate"
+msgstr ""
+
+#: build/assets/js/calendar/event/event-content-lazy.js:1
+msgid "All attendees are required to have negative PCR test result performed 48 hours before the event start date"
+msgstr ""
+
+#: build/assets/js/calendar/event/event-content-lazy.js:1
+msgid "All attendees are required to have negative rapid test result performed 48 hours before the event start date"
+msgstr ""
+
+#: build/assets/js/calendar/event/event-content-lazy.js:1
+msgid "Sorry, Comments are disabled"
+msgstr ""
+
+#: build/assets/js/calendar/event/event-content-lazy.js:1
+msgid "You have chosen not to enable the comments section."
+msgstr ""
+
+#: build/assets/js/calendar/event/event-content-lazy.js:1
+msgid "Loading Comments"
+msgstr ""
+
+#: build/assets/js/calendar/event/event-content-lazy.js:1
+msgid "Comments updated"
+msgstr ""
+
+#: build/assets/js/calendar/event/event-content-lazy.js:1
+msgid "Comment is empty"
+msgstr ""
+
+#: build/assets/js/calendar/event/event-content-lazy.js:1
+msgid "Leave a comment"
+msgstr ""
+
+#: build/assets/js/calendar/event/event-content-lazy.js:1
+msgid "Reply to this comment"
+msgstr ""
+
+#: build/assets/js/calendar/event/event-content-lazy.js:1
+msgid "No Comments Yet"
+msgstr ""
+
+#: build/assets/js/calendar/event/event-content-lazy.js:1
+msgid "Be the first to share what you think!"
+msgstr ""
+
+#: build/assets/js/calendar/event/event-content-lazy.js:1
+msgid "You must log-in first"
+msgstr ""
+
+#: build/assets/js/calendar/event/event-content-lazy.js:1
+msgid "Newer"
+msgstr ""
+
+#: build/assets/js/calendar/event/event-content-lazy.js:1
+msgid "Older"
+msgstr ""
+
+#: build/assets/js/calendar/event/event-content-lazy.js:1
+msgid "Event organizer"
+msgstr ""
+
+#: build/assets/js/calendar/event/event-content-lazy.js:1
+#: build/assets/js/calendar/layout/grid-lazy.js:1
+msgctxt "Verified organizer title text"
+msgid "Verified organizer"
+msgstr ""
+
+#: build/assets/js/calendar/event/event-content-lazy.js:1
+msgid "Event guest"
+msgstr ""
+
+#: build/assets/js/calendar/event/event-content-lazy.js:1
+msgid "Add your custom HTML here"
+msgstr ""
+
+#: build/assets/js/calendar/event/event-content-lazy.js:1
+msgid "Add your custom JS here"
+msgstr ""
+
+#: build/assets/js/calendar/event/event-content-lazy.js:1
+#: build/assets/js/calendar/layout/grid-lazy.js:1
+msgid "Close"
+msgstr ""
+
+#: build/assets/js/calendar/event/event-content-lazy.js:1
+#: build/assets/js/calendar/layout/grid-lazy.js:1
+msgctxt "Verified badge modal text"
+msgid "This badge is given to verified users."
+msgstr ""
+
+#: build/assets/js/calendar/layout/agenda-lazy.js:1
+#: build/assets/js/calendar/layout/boxgrid-lazy.js:1
+#: build/assets/js/calendar/layout/grid-lazy.js:1
+msgctxt "month, year"
+msgid "Go to %s, %s"
+msgstr ""
+
+#: build/assets/js/calendar/layout/agenda-lazy.js:1
+msgid "Events from %s and prior"
+msgstr ""
+
+#: build/assets/js/calendar/layout/agenda-lazy.js:1
+msgid "Events since %s"
+msgstr ""
+
+#: build/assets/js/calendar/layout/boxgrid-lazy.js:1
+#: build/assets/js/calendar/layout/grid-lazy.js:1
+msgid "No events found in %s"
+msgstr ""
+
+#: build/assets/js/calendar/layout/day-lazy.js:1
+msgid "No events found for this day"
+msgstr ""
+
+#: build/assets/js/dashboard/dashboard-lazy.js:1
+msgid "Just a moment, we're getting things ready"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/list-lazy.js:1
+msgid "calendar"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/list-lazy.js:1
+msgid "calendars"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/list-lazy.js:1
+msgctxt "Empty the calendar"
+msgid "Empty"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/list-lazy.js:1
+msgid "Events deleted"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/list-lazy.js:1
+#: build/assets/js/dashboard/pages/categories/list-lazy.js:1
+#: build/assets/js/dashboard/pages/guests/list-lazy.js:1
+#: build/assets/js/dashboard/pages/locations/list-lazy.js:1
+#: build/assets/js/dashboard/pages/organizers/list-lazy.js:1
+msgid "Used by %d event"
+msgid_plural "Used by %d events"
+msgstr[0] ""
+msgstr[1] ""
+
+#: build/assets/js/dashboard/pages/calendars/list-lazy.js:1
+#: build/assets/js/dashboard/pages/categories/list-lazy.js:1
+#: build/assets/js/dashboard/pages/guests/list-lazy.js:1
+#: build/assets/js/dashboard/pages/locations/list-lazy.js:1
+#: build/assets/js/dashboard/pages/organizers/list-lazy.js:1
+msgid "Add new %s"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/list-lazy.js:1
+#: build/assets/js/dashboard/pages/categories/list-lazy.js:1
+#: build/assets/js/dashboard/pages/guests/list-lazy.js:1
+#: build/assets/js/dashboard/pages/locations/list-lazy.js:1
+#: build/assets/js/dashboard/pages/organizers/list-lazy.js:1
+msgid "Manage %s"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/list-lazy.js:1
+#: build/assets/js/dashboard/pages/categories/list-lazy.js:1
+#: build/assets/js/dashboard/pages/guests/list-lazy.js:1
+#: build/assets/js/dashboard/pages/locations/list-lazy.js:1
+#: build/assets/js/dashboard/pages/organizers/list-lazy.js:1
+msgid "Term not found"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+#: build/assets/js/dashboard/pages/categories/upsert-lazy.js:1
+msgid "Select icon"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+#: build/assets/js/dashboard/pages/categories/upsert-lazy.js:1
+msgid "Select icon for your thumbnail. Type * to list all icons."
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+#: build/assets/js/dashboard/pages/categories/upsert-lazy.js:1
+msgid "Select image"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+#: build/assets/js/dashboard/pages/categories/upsert-lazy.js:1
+msgid "Select image for your thumbnail"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+#: build/assets/js/dashboard/pages/categories/upsert-lazy.js:1
+msgid "Icon"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+#: build/assets/js/dashboard/pages/categories/upsert-lazy.js:1
+msgid "Image"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Who can edit this calendar"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Who can submit events to this calendar"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Require approval for events submitted by others"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "If checked events submitted by others to this calendar will not be published until approved by the moderator"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Edit calendar"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Add new calendar"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Calendar name"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "The calendar must have a name"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Calendar slug"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "The calendar must have a valid slug"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Calendar color"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+#: build/assets/js/dashboard/pages/categories/upsert-lazy.js:1
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Thumbnail type"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+#: build/assets/js/dashboard/pages/categories/upsert-lazy.js:1
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Thumbnail type for your events. Events can override this value"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Timezone"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "This will be the default timezone for the events in this calendar. Can be changed later. Events can override this value when necessary."
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "The calendar must have a timezone"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "The read permission cannot be empty"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "A calendar with this name already exists"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Manage calendars"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Africa/Abidjan"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Africa/Accra"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Africa/Addis Ababa"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Africa/Algiers"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Africa/Asmara"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Africa/Bamako"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Africa/Bangui"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Africa/Banjul"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Africa/Bissau"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Africa/Blantyre"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Africa/Brazzaville"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Africa/Bujumbura"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Africa/Cairo"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Africa/Casablanca"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Africa/Ceuta"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Africa/Conakry"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Africa/Dakar"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Africa/Dar es Salaam"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Africa/Djibouti"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Africa/Douala"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Africa/El Aaiun"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Africa/Freetown"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Africa/Gaborone"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Africa/Harare"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Africa/Johannesburg"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Africa/Juba"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Africa/Kampala"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Africa/Khartoum"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Africa/Kigali"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Africa/Kinshasa"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Africa/Lagos"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Africa/Libreville"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Africa/Lome"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Africa/Luanda"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Africa/Lubumbashi"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Africa/Lusaka"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Africa/Malabo"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Africa/Maputo"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Africa/Maseru"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Africa/Mbabane"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Africa/Mogadishu"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Africa/Monrovia"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Africa/Nairobi"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Africa/Ndjamena"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Africa/Niamey"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Africa/Nouakchott"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Africa/Ouagadougou"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Africa/Porto-Novo"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Africa/Sao Tome"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Africa/Tripoli"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Africa/Tunis"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Africa/Windhoek"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/Adak"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/Anchorage"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/Anguilla"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/Antigua"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/Araguaina"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/Argentina/Buenos Aires"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/Argentina/Catamarca"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/Argentina/Cordoba"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/Argentina/Jujuy"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/Argentina/La Rioja"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/Argentina/Mendoza"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/Argentina/Rio Gallegos"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/Argentina/Salta"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/Argentina/San Juan"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/Argentina/San Luis"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/Argentina/Tucuman"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/Argentina/Ushuaia"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/Aruba"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/Asuncion"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/Atikokan"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/Bahia"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/Bahia Banderas"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/Barbados"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/Belem"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/Belize"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/Blanc-Sablon"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/Boa Vista"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/Bogota"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/Boise"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/Cambridge Bay"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/Campo Grande"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/Cancun"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/Caracas"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/Cayenne"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/Cayman"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/Chicago"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/Chihuahua"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/Costa Rica"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/Creston"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/Cuiaba"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/Curacao"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/Danmarkshavn"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/Dawson"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/Dawson Creek"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/Denver"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/Detroit"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/Dominica"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/Edmonton"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/Eirunepe"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/El Salvador"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/Fort Nelson"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/Fortaleza"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/Glace Bay"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/Goose Bay"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/Grand Turk"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/Grenada"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/Guadeloupe"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/Guatemala"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/Guayaquil"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/Guyana"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/Halifax"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/Havana"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/Hermosillo"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/Indiana/Indianapolis"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/Indiana/Knox"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/Indiana/Marengo"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/Indiana/Petersburg"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/Indiana/Tell City"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/Indiana/Vevay"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/Indiana/Vincennes"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/Indiana/Winamac"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/Inuvik"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/Iqaluit"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/Jamaica"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/Juneau"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/Kentucky/Louisville"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/Kentucky/Monticello"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/Kralendijk"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/La Paz"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/Lima"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/Los Angeles"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/Lower Princes"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/Maceio"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/Managua"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/Manaus"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/Marigot"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/Martinique"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/Matamoros"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/Mazatlan"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/Menominee"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/Merida"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/Metlakatla"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/Mexico City"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/Miquelon"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/Moncton"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/Monterrey"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/Montevideo"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/Montserrat"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/Nassau"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/New York"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/Nipigon"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/Nome"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/Noronha"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/North Dakota/Beulah"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/North Dakota/Center"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/North Dakota/New Salem"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/Nuuk"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/Ojinaga"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/Panama"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/Pangnirtung"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/Paramaribo"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/Phoenix"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/Port-au-Prince"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/Port of Spain"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/Porto Velho"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/Puerto Rico"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/Punta Arenas"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/Rainy River"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/Rankin Inlet"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/Recife"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/Regina"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/Resolute"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/Rio Branco"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/Santarem"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/Santiago"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/Santo Domingo"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/Sao Paulo"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/Scoresbysund"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/Sitka"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/St. Barthelemy"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/St. Johns"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/St. Kitts"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/St. Lucia"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/St. Thomas"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/St. Vincent"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/Swift Current"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/Tegucigalpa"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/Thule"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/Thunder_Bay"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/Tijuana"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/Toronto"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/Tortola"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/Vancouver"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/Whitehorse"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/Winnipeg"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/Yakutat"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "America/Yellowknife"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Antarctica/Casey"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Antarctica/Davis"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Antarctica/DumontDUrville"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Antarctica/Macquarie"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Antarctica/Mawson"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Antarctica/McMurdo"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Antarctica/Palmer"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Antarctica/Rothera"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Antarctica/Syowa"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Antarctica/Troll"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Antarctica/Vostok"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Arctic/Longyearbyen"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Asia/Aden"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Asia/Almaty"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Asia/Amman"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Asia/Anadyr"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Asia/Aqtau"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Asia/Aqtobe"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Asia/Ashgabat"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Asia/Atyrau"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Asia/Baghdad"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Asia/Bahrain"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Asia/Baku"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Asia/Bangkok"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Asia/Barnaul"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Asia/Beirut"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Asia/Bishkek"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Asia/Brunei"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Asia/Chita"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Asia/Choibalsan"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Asia/Colombo"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Asia/Damascus"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Asia/Dhaka"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Asia/Dili"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Asia/Dubai"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Asia/Dushanbe"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Asia/Famagusta"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Asia/Gaza"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Asia/Hebron"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Asia/Ho Chi Minh"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Asia/Hong Kong"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Asia/Hovd"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Asia/Irkutsk"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Asia/Jakarta"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Asia/Jayapura"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Asia/Jerusalem"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Asia/Kabul"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Asia/Kamchatka"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Asia/Karachi"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Asia/Kathmandu"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Asia/Khandyga"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Asia/Kolkata"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Asia/Krasnoyarsk"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Asia/Kuala Lumpur"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Asia/Kuching"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Asia/Kuwait"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Asia/Macau"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Asia/Magadan"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Asia/Makassar"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Asia/Manila"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Asia/Muscat"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Asia/Nicosia"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Asia/Novokuznetsk"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Asia/Novosibirsk"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Asia/Omsk"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Asia/Oral"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Asia/Phnom Penh"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Asia/Pontianak"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Asia/Pyongyang"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Asia/Qatar"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Asia/Qostanay"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Asia/Qyzylorda"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Asia/Riyadh"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Asia/Sakhalin"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Asia/Samarkand"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Asia/Seoul"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Asia/Shanghai"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Asia/Singapore"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Asia/Srednekolymsk"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Asia/Taipei"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Asia/Tashkent"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Asia/Tbilisi"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Asia/Tehran"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Asia/Thimphu"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Asia/Tokyo"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Asia/Tomsk"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Asia/Ulaanbaatar"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Asia/Urumqi"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Asia/Ust-Nera"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Asia/Vientiane"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Asia/Vladivostok"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Asia/Yakutsk"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Asia/Yangon"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Asia/Yekaterinburg"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Asia/Yerevan"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Atlantic/Azores"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Atlantic/Bermuda"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Atlantic/Canary"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Atlantic/Cape Verde"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Atlantic/Faroe"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Atlantic/Madeira"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Atlantic/Reykjavik"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Atlantic/South Georgia"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Atlantic/St. Helena"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Atlantic/Stanley"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Australia/Adelaide"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Australia/Brisbane"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Australia/Broken Hill"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Australia/Darwin"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Australia/Eucla"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Australia/Hobart"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Australia/Lindeman"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Australia/Lord Howe"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Australia/Melbourne"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Australia/Perth"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Australia/Sydney"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Europe/Amsterdam"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Europe/Andorra"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Europe/Astrakhan"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Europe/Athens"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Europe/Belgrade"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Europe/Berlin"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Europe/Bratislava"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Europe/Brussels"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Europe/Bucharest"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Europe/Budapest"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Europe/Busingen"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Europe/Chisinau"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Europe/Copenhagen"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Europe/Dublin"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Europe/Gibraltar"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Europe/Guernsey"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Europe/Helsinki"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Europe/Isle of Man"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Europe/Istanbul"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Europe/Jersey"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Europe/Kaliningrad"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Europe/Kiev"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Europe/Kirov"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Europe/Lisbon"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Europe/Ljubljana"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Europe/London"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Europe/Luxembourg"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Europe/Madrid"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Europe/Malta"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Europe/Mariehamn"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Europe/Minsk"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Europe/Monaco"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Europe/Moscow"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Europe/Oslo"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Europe/Paris"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Europe/Podgorica"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Europe/Prague"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Europe/Riga"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Europe/Rome"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Europe/Samara"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Europe/San Marino"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Europe/Sarajevo"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Europe/Saratov"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Europe/Simferopol"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Europe/Skopje"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Europe/Sofia"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Europe/Stockholm"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Europe/Tallinn"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Europe/Tirane"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Europe/Ulyanovsk"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Europe/Uzhgorod"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Europe/Vaduz"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Europe/Vatican"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Europe/Vienna"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Europe/Vilnius"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Europe/Volgograd"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Europe/Warsaw"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Europe/Zagreb"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Europe/Zaporozhye"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Europe/Zurich"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Indian/Antananarivo"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Indian/Chagos"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Indian/Christmas"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Indian/Cocos"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Indian/Comoro"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Indian/Kerguelen"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Indian/Mahe"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Indian/Maldives"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Indian/Mauritius"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Indian/Mayotte"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Indian/Reunion"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Pacific/Apia"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Pacific/Auckland"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Pacific/Bougainville"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Pacific/Chatham"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Pacific/Chuuk"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Pacific/Easter"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Pacific/Efate"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Pacific/Fakaofo"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Pacific/Fiji"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Pacific/Funafuti"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Pacific/Galapagos"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Pacific/Gambier"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Pacific/Guadalcanal"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Pacific/Guam"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Pacific/Honolulu"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Pacific/Kanton"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Pacific/Kiritimati"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Pacific/Kosrae"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Pacific/Kwajalein"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Pacific/Majuro"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Pacific/Marquesas"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Pacific/Midway"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Pacific/Nauru"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Pacific/Niue"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Pacific/Norfolk"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Pacific/Noumea"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Pacific/Pago Pago"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Pacific/Palau"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Pacific/Pitcairn"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Pacific/Pohnpei"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Pacific/Port Moresby"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Pacific/Rarotonga"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Pacific/Saipan"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Pacific/Tahiti"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Pacific/Tarawa"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Pacific/Tongatapu"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Pacific/Wake"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "Pacific/Wallis"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/calendars/upsert-lazy.js:1
+msgid "UTC"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/categories/list-lazy.js:1
+msgid "category"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/categories/list-lazy.js:1
+msgid "categories"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/categories/upsert-lazy.js:1
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Who can edit this category"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/categories/upsert-lazy.js:1
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Who can submit events to this category"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/categories/upsert-lazy.js:1
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Edit category"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/categories/upsert-lazy.js:1
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Add new category"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/categories/upsert-lazy.js:1
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Category name"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/categories/upsert-lazy.js:1
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "The category must have a name"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/categories/upsert-lazy.js:1
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Category slug"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/categories/upsert-lazy.js:1
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "The category must have a valid slug"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/categories/upsert-lazy.js:1
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Category color"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/categories/upsert-lazy.js:1
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "A category with this name already exists"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/categories/upsert-lazy.js:1
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Manage categories"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/archive-lazy.js:1
+#: build/assets/js/dashboard/pages/events/list-lazy.js:1
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Manage events"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/archive-lazy.js:1
+msgid "Are you sure you want to delete all archived events?"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/archive-lazy.js:1
+msgid "Empty archive"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/archive-lazy.js:1
+msgid "Archive deleted"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/archive-lazy.js:1
+msgid "Archived events"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/list-lazy.js:1
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Add new event"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/list-lazy.js:1
+msgid "Manage archive"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "EXDATE"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Add date exception"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Add Exdate"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Disabled"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Daily"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Weekly"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Monthly by day"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Monthly by date"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Yearly by day"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Yearly by date"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Manual Mode (Advanced)"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Every day"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Every other day"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Every 3rd day"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Every 4th day"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Every 5th day"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Every 6th day"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Every 7th day"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Every 8th day"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Every 9th day"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Every 10th day"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Every 11th day"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Every 12th day"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Every 13th day"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Every 14th day"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Every 15th day"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Every 16th day"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Every 17th day"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Every 18th day"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Every 19th day"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Every 20th day"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Every 21st day"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Every 22nd day"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Every 23rd day"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Every 24th day"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Every 25th day"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Every 26th day"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Every 27th day"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Every 28th day"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Every 29th day"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Every 30th day"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Every week"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Every other week"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Every 3rd week"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Every 4th week"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Every 5th week"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Every 6th week"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Every 7th week"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Every 8th week"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Every 9th week"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Every 10th week"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Every 11th week"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Every 12th week"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Every 13th week"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Every 14th week"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Every 15th week"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Every 16th week"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Every 17th week"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Every 18th week"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Every 19th week"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Every 20th week"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Every 21st week"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Every 22nd week"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Every 23rd week"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Every 25th week"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Every 26th week"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Every month"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Every other month"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Every 3rd month"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Every 4th month"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Every 5th month"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Every 6th month"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Every 7th month"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Every 8th month"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Every 9th month"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Every 10th month"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Every 11th month"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Every 12th month"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Every 18th month"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Every 24th month"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Every 36th month"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Every 48th week"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "1st Monday"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "1st Tuesday"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "1st Wednesday"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "1st Thursday"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "1st Friday"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "1st Saturday"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "1st Sunday"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "2nd Monday"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "2nd Tuesday"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "2nd Wednesday"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "2nd Thursday"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "2nd Friday"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "2nd Saturday"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "2nd Sunday"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "3rd Monday"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "3rd Tuesday"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "3rd Wednesday"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "3rd Thursday"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "3rd Friday"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "3rd Saturday"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "3rd Sunday"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "4th Monday"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "4th Tuesday"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "4th Wednesday"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "4th Thursday"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "4th Friday"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "4th Saturday"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "4th Sunday"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "5th Monday"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "5th Tuesday"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "5th Wednesday"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "5th Thursday"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "5th Friday"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "5th Saturday"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "5th Sunday"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Last Monday"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Last Tuesday"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Last Wednesday"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Last Thursday"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Last Friday"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Last Saturday"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Last Sunday"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "1st day"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "2nd day"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "3rd day"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "4th day"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "5th day"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "6th day"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "7th day"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "8th day"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "9th day"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "10th day"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "11th day"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "12th day"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "13th day"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "14th day"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "15th day"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "16th day"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "17th day"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "18th day"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "19th day"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "20th day"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "21st day"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "22nd day"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "23rd day"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "24th day"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "25th day"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "26th day"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "27th day"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "28th day"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "29th day"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "30th day"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "31th day"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Every year"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Every other year"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Every 3rd year"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Every 4th year"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Every 5th year"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Every 6th year"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Every 7th year"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Every 8th year"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Every 9th year"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Every 10th year"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Daily Interval"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Weekly by day"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Weekly interval"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Monthly interval"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Yearly by month"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Yearly interval"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Repeat forever"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Until"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Occurrence(s)"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Number of occurrences"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Generated RRULE String"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Enter your custom RRULE string"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "The recurrence rule (RRULE) is used in computing the recurrence set."
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Search option or feature"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgctxt "TinyMCE Button"
+msgid "Media Library"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgctxt "TinyMCE Button"
+msgid "Add images from the media library"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgctxt "TinyMCE Editor Media Library"
+msgid "Select Images"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgctxt "TinyMCE Editor Media Library"
+msgid "Add Images"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "The event must have a title"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "The event must have a valid slug"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "The event must have a calendar"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Event must have a start date"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Event must have an end date"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "The event must have a timezone"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Start date must be before end date"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Edit event"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "About"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Submitted by anonymous user"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Yes"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "This event was submitted by anonymous user"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Contact name"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Name for contact"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Contact phone"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Phone for contact"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Email for contact"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Created on"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "The date on which the event was created"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Author notes"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Any notes you want to leave for the author"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "About the Event"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Any notes you want to left for the author"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Add Attachments"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Add attachments"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Recurrence override date"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Select recurrence override date."
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Read permission"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Who can view this event"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Who can edit this event"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Assign event categories"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Select calendar"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Assign the event to the selected calendar"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Start date"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Event initial start date"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "End date"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Event initial end date"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Check if your event spans throughout the day"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Check if you don't want to show the event end date on the front-end"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Repeat event"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Set repeat scheme for your events"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Event Color"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Select color for your event"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Event thumbnail"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+#: build/assets/js/widgets/events-list/admin.js:1
+#: build/assets/js/widgets/events-slider/admin.js:1
+#: build/assets/js/widgets/stec/admin.js:1
+msgid "General"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Permalink"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "The event current permalink"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "View event"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Title"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "The event title"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Slug"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "The event title slug. Leave empty to auto-generate"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Use calendar timezone"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Event timezone"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+#: build/assets/js/widgets/events-list/admin.js:1
+#: build/assets/js/widgets/events-slider/admin.js:1
+msgid "Event Status"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+#: build/assets/js/widgets/events-list/admin.js:1
+#: build/assets/js/widgets/events-slider/admin.js:1
+msgid "Scheduled"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Set event status"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Set as Featured"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Mark event as featured"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Allow comments"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Allow comments for this event"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Select guests"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Select existing guests"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Guests list"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+#: build/assets/js/dashboard/pages/guests/upsert-lazy.js:1
+msgid "Add new guest"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Introduction"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Add images to your event"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Add Images"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Detailed description about the event"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Short description"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Short description about the event"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "External link"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Any url relevant to your event that you may want to include"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "URL"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "External link text"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "External link text. Leave empty to use the default link text"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "The external link button text"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+#: build/assets/js/widgets/events-list/admin.js:1
+#: build/assets/js/widgets/events-slider/admin.js:1
+#: build/assets/js/widgets/stec/admin.js:1
+msgid "None"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Select location"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Select existing locations"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Locations list"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Select organizers"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Select existing organizers"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Organizers list"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Public health measures"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Require face masks"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Require event attendees to wear face masks"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Require temperature screening"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Require event attendees to undergo temperature screening upon entry"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Require safe distance"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Require event attendees to maintain safe physical distance"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Require tracing"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Require event attendees to provide their contact information for contact tracing purposes"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Require negative rapid antigen test"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Require event attendees to have negative rapid antigen test"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Require negative PCR test"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Require event attendees to have negative PCR test"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Require vaccination certificate"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Require event attendees to have valid vaccination certificate"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Custom requirements"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Add your own requirement here separated by | character"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Timespan"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Edit timespan..."
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Timespan Title"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Date and time"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Schedule"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Add Timespan"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+msgid "Public health"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+#: build/assets/js/dashboard/pages/guests/upsert-lazy.js:1
+msgid "Who can edit this guest"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+#: build/assets/js/dashboard/pages/guests/upsert-lazy.js:1
+msgid "Who can add this guest to their events"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+#: build/assets/js/dashboard/pages/guests/upsert-lazy.js:1
+msgid "Edit guest"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+#: build/assets/js/dashboard/pages/guests/upsert-lazy.js:1
+msgid "Add photo for this guest from the WordPress Media Library"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+#: build/assets/js/dashboard/pages/guests/upsert-lazy.js:1
+msgid "Guest name"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+#: build/assets/js/dashboard/pages/guests/upsert-lazy.js:1
+msgid "The guest must have a name"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+#: build/assets/js/dashboard/pages/guests/upsert-lazy.js:1
+msgid "Guest slug"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+#: build/assets/js/dashboard/pages/guests/upsert-lazy.js:1
+msgid "The guest must have a valid slug"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+#: build/assets/js/dashboard/pages/guests/upsert-lazy.js:1
+msgid "Guest color"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+#: build/assets/js/dashboard/pages/guests/upsert-lazy.js:1
+msgid "About this Guest"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+#: build/assets/js/dashboard/pages/guests/upsert-lazy.js:1
+msgid "A guest with this name already exists"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/events/upsert-lazy.js:1
+#: build/assets/js/dashboard/pages/guests/upsert-lazy.js:1
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Manage guests"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/guests/list-lazy.js:1
+msgid "guest"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/guests/list-lazy.js:1
+msgid "guests"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/home/home-lazy.js:1
+msgid "Tickets & Products"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/home/home-lazy.js:1
+msgid "Integrate WooCommerce with the ability to sell event tickets and products directly from your calendar, add simple or variable tickets, generate Order and Ticket QR codes, set ticket quantity per event occurrence, and scan tickets using a QR code scanner."
+msgstr ""
+
+#: build/assets/js/dashboard/pages/home/home-lazy.js:1
+msgid "BuddyPress"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/home/home-lazy.js:1
+msgid "Integrate with BuddyPress to display events on user profiles, group pages, and the activity page, allowing the creation and display of group events."
+msgstr ""
+
+#: build/assets/js/dashboard/pages/home/home-lazy.js:1
+msgid "RSVP"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/home/home-lazy.js:1
+msgid "Enable users to RSVP to events, set RSVP limits, specify limits per RSVP, define RSVP deadlines, implement a waiting list, and display the RSVP list."
+msgstr ""
+
+#: build/assets/js/dashboard/pages/home/home-lazy.js:1
+msgid "Reminders"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/home/home-lazy.js:1
+msgid "Enable users to set up a reminder for events, send reminders via email"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/home/home-lazy.js:1
+msgid "Event Submission Form"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/home/home-lazy.js:1
+msgid "Allow users or visitors to submit events from the frontend."
+msgstr ""
+
+#: build/assets/js/dashboard/pages/home/home-lazy.js:1
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Comments"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/home/home-lazy.js:1
+msgid "Enable users to comment on events and provide the option to choose between Facebook or an internal comments form."
+msgstr ""
+
+#: build/assets/js/dashboard/pages/home/home-lazy.js:1
+msgid "Weather Forecast"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/home/home-lazy.js:1
+msgid "Display weather forecast for your events."
+msgstr ""
+
+#: build/assets/js/dashboard/pages/home/home-lazy.js:1
+msgid "A.I."
+msgstr ""
+
+#: build/assets/js/dashboard/pages/home/home-lazy.js:1
+msgid "A.I. Content Enhancer."
+msgstr ""
+
+#: build/assets/js/dashboard/pages/home/home-lazy.js:1
+msgid "Import & Export"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/home/home-lazy.js:1
+msgid "Import events from sources such as Facebook or Google Calendar, import events from CSV files, and export events to both CSV and ICS files."
+msgstr ""
+
+#: build/assets/js/dashboard/pages/home/home-lazy.js:1
+msgid "Cron jobs"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/home/home-lazy.js:1
+msgid "Schedule cron jobs to automate event imports."
+msgstr ""
+
+#: build/assets/js/dashboard/pages/home/home-lazy.js:1
+msgid "Builder"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/home/home-lazy.js:1
+msgid "Utilize a built-in drag & drop builder to create event layouts and event submission form layouts effortlessly."
+msgstr ""
+
+#: build/assets/js/dashboard/pages/home/home-lazy.js:1
+msgid "Event Single Page"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/home/home-lazy.js:1
+msgid "Display events on a single page."
+msgstr ""
+
+#: build/assets/js/dashboard/pages/home/home-lazy.js:1
+msgid "Organizers Page"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/home/home-lazy.js:1
+msgid "Display organizers on a single page."
+msgstr ""
+
+#: build/assets/js/dashboard/pages/home/home-lazy.js:1
+msgid "Guests Page"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/home/home-lazy.js:1
+msgid "Locations Page"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/home/home-lazy.js:1
+msgid "Display locations on a single page."
+msgstr ""
+
+#: build/assets/js/dashboard/pages/home/home-lazy.js:1
+msgid "Translatable"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/home/home-lazy.js:1
+msgid "Translate the plugin to any language."
+msgstr ""
+
+#: build/assets/js/dashboard/pages/home/home-lazy.js:1
+msgid "Multilingual Support"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/home/home-lazy.js:1
+msgid "Support for multilingual websites using WPML, Polylang and similar plugins."
+msgstr ""
+
+#: build/assets/js/dashboard/pages/home/home-lazy.js:1
+msgid "Multi-site Ready"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/home/home-lazy.js:1
+msgid "Use the plugin on a WordPress multi-site network."
+msgstr ""
+
+#: build/assets/js/dashboard/pages/home/home-lazy.js:1
+msgid "Gutenberg Blocks"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/home/home-lazy.js:1
+msgid "Display the calendar and its widgets with Gutenberg blocks."
+msgstr ""
+
+#: build/assets/js/dashboard/pages/home/home-lazy.js:1
+msgid "Elementor Widgets"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/home/home-lazy.js:1
+msgid "Display the calendar and its widgets with Elementor widgets."
+msgstr ""
+
+#: build/assets/js/dashboard/pages/home/home-lazy.js:1
+msgid "Color Customizable"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/home/home-lazy.js:1
+msgid "Customize the calendar colors to match your website."
+msgstr ""
+
+#: build/assets/js/dashboard/pages/home/home-lazy.js:1
+msgid "Social Integration"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/home/home-lazy.js:1
+msgid "Share events on social networks."
+msgstr ""
+
+#: build/assets/js/dashboard/pages/home/home-lazy.js:1
+msgid "Subscribe to Events"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/home/home-lazy.js:1
+msgid "Allows users to subscribe to events or calendars, supporting Google Calendar, iCalendar, Outlook 365, Outlook Live, and other calendar apps."
+msgstr ""
+
+#: build/assets/js/dashboard/pages/home/home-lazy.js:1
+msgid "Embed"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/home/home-lazy.js:1
+msgid "Embed events on other websites."
+msgstr ""
+
+#: build/assets/js/dashboard/pages/home/home-lazy.js:1
+msgid "Repeatability"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/home/home-lazy.js:1
+msgid "Create repeating events with options to add repeat exceptions, set daily, weekly, monthly, and yearly repeating events, repeat events on specific days or dates, and insert custom RRULE repeat schemes."
+msgstr ""
+
+#: build/assets/js/dashboard/pages/home/home-lazy.js:1
+msgid "Agenda Layout"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/home/home-lazy.js:1
+msgid "Display events in a list."
+msgstr ""
+
+#: build/assets/js/dashboard/pages/home/home-lazy.js:1
+msgid "Agenda Layout (Unbound)"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/home/home-lazy.js:1
+msgid "Unbound mode will continue to display events that fall outside the current month."
+msgstr ""
+
+#: build/assets/js/dashboard/pages/home/home-lazy.js:1
+msgid "Month & Week Layout"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/home/home-lazy.js:1
+msgid "Display events in a calendar month or week layout."
+msgstr ""
+
+#: build/assets/js/dashboard/pages/home/home-lazy.js:1
+msgid "Month & Week Layout Print"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/home/home-lazy.js:1
+msgid "Print option for month & week layouts"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/home/home-lazy.js:1
+msgid "Month & Week Layout Images"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/home/home-lazy.js:1
+msgid "Display images in month & week layouts cells."
+msgstr ""
+
+#: build/assets/js/dashboard/pages/home/home-lazy.js:1
+msgid "Grid Layout"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/home/home-lazy.js:1
+msgid "Display events in a grid layout."
+msgstr ""
+
+#: build/assets/js/dashboard/pages/home/home-lazy.js:1
+msgid "Grid Layout (Unbound)"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/home/home-lazy.js:1
+msgid "Unbound mode will continue to display events that fall outside the current month"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/home/home-lazy.js:1
+msgid "Box Grid Layout"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/home/home-lazy.js:1
+msgid "Display events in a box grid (tile) layout."
+msgstr ""
+
+#: build/assets/js/dashboard/pages/home/home-lazy.js:1
+msgid "Box Grid Layout (Unbound)"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/home/home-lazy.js:1
+msgid "Day Layout"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/home/home-lazy.js:1
+msgid "Display events in a day layout."
+msgstr ""
+
+#: build/assets/js/dashboard/pages/home/home-lazy.js:1
+msgid "Hourly Layout"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/home/home-lazy.js:1
+msgid "Displays events for the day in an hourly layout."
+msgstr ""
+
+#: build/assets/js/dashboard/pages/home/home-lazy.js:1
+msgid "Hourly Layout Print"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/home/home-lazy.js:1
+msgid "Print option for hourly layout."
+msgstr ""
+
+#: build/assets/js/dashboard/pages/home/home-lazy.js:1
+msgid "Map Layout "
+msgstr ""
+
+#: build/assets/js/dashboard/pages/home/home-lazy.js:1
+msgid "Display events on a map using OpenStreetMap or Google Maps."
+msgstr ""
+
+#: build/assets/js/dashboard/pages/home/home-lazy.js:1
+msgid "Display events near you or near a specific location using the proximity filter."
+msgstr ""
+
+#: build/assets/js/dashboard/pages/home/home-lazy.js:1
+msgid "Display events in a standalone slider."
+msgstr ""
+
+#: build/assets/js/dashboard/pages/home/home-lazy.js:1
+msgid "Display events in a standalone list."
+msgstr ""
+
+#: build/assets/js/dashboard/pages/home/home-lazy.js:1
+msgid "Comparison Table"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/home/home-lazy.js:1
+msgid "STEC"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/home/home-lazy.js:1
+msgid "Lite"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/home/home-lazy.js:1
+msgid "Already Installed"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/home/home-lazy.js:1
+msgid "Upgrade Now"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/home/home-lazy.js:1
+msgid "Manage"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/home/home-lazy.js:1
+msgid "Add new"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/home/home-lazy.js:1
+msgid "Get full version"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/home/home-lazy.js:1
+msgid "Compare"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/locations/list-lazy.js:1
+msgid "location"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/locations/list-lazy.js:1
+msgid "locations"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/organizers/list-lazy.js:1
+msgid "organizer"
+msgstr ""
+
+#: build/assets/js/dashboard/pages/organizers/list-lazy.js:1
+msgid "organizers"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Are you sure you want to reset all settings?"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Are you sure you want to reset these settings?"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Reset"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Reset all settings"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Reset to defaults"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Unable to display calendar settings. Reset to default settings?"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "If resetting the settings doesn't resolve the issue, please contact our support team for further assistance"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Manage settings"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Save settings"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Settings updated"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Updating settings"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Settings have been reset"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Inline categories list"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Display categories inline below the top menu"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Inline categories list mode"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Single-Select"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Multi-Select"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Toggle between Single-Select Mode, where selecting an item automatically unchecks others, and Multi-Select Mode, which allows multiple items to be selected simultaneously."
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Calendar top menu"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Show calendar top menu settings"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Top menu"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Display top menu"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Today button"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Display today button"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Navigation buttons"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Display previous & next date navigation buttons"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Date picker menu"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Display date picker dropdown menu"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Search menu"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Display search events menu"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Layouts menu"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Display layouts menu"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Filters menu"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Hide"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Toggle"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Always Visible"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Set top menu filters visibility"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Uncheck categories"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Uncheck categories upon initial calendar load"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+#: build/assets/js/widgets/stec/admin.js:1
+msgid "Map"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Date & time settings"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Show date and time settings"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "First day of the week"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Select first day of the week for your calendar"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Date format"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Month Day Year"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Day Month Year"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Year Month Day"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Use WordPress Settings"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Set date format for your calendar"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Time format"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "12 hours"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "24 hours"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Set time format for your calendar"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Show dates in user's timezone"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Turn on this option to show event dates in the user's local time"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Show UTC Offset"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Display UTC Offset next to the time"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Calendar layouts"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Show calendar layouts settings"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Set the available layouts for your calendar"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Default calendar layout"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Select the default calendar layout"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Event preview"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Show event preview settings"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Display toggle button"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Display toggle event button at the right side of the preview container"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Open events & links"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Show open events & links settings"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Open Events In"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Popup"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Single page"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Exernal link"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Select how to open your events on click"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Open links In"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Same window"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "New window"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Open links in new window or same window"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Organizers & Guests"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Show organizers & guests settings"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Conceal publicly visible emails from non-logged-in users"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Other"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Show open \"other\" settings"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Front-end event thumbnail source"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Select event thumbnail source"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Auto-focus events"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Comments settings"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Show comments settings"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Comments form type"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Choose default form"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Internal"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Facebook"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Facebook App ID"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Dashboard settings"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Show dashboard settings"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Access dashboard"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Who can access the dashboard"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Select user roles permitted to submit and manage calendars"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Select user roles permitted to submit and manage categories"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Select user roles permitted to submit and manage locations"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Select user roles permitted to submit and manage organizers"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Select user roles permitted to submit and manage guests"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Only selected roles will be allowed to manage events"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Only selected roles will be allowed access to the settings"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Load WP Media on the front-end"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Allow users to access the WordPress Media Library on the front-end"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Enforce private back-end"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "If enabled, terms and events permissions will be restricted to Private mode, allowing only their authors to edit, view and use them"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Enforce private front-end"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "If enabled, terms and events will be visible on the front-end only by their author"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Apple Red on White"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Orange on Dark Gray"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Yellow on White"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Green on White"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Violet on White"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Autumn Theme on White"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Mono"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Default Theme"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Themes"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Show themes settings"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Color Themes"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Apply theme colors"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Colors scheme applied"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Fonts"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Show fonts menu settings"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "General font family"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Font family"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Show top menu settings"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Background color"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Background color (Active Primary)"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Background color (Active Secondary)"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Text color"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Text color (Active)"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Show agenda settings"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Agenda list title color"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Month and Year cell background color"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Month and Year cell text color"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Cell background color"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Cell text color"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Cell background color (Hover)"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Cell text color (Hover)"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Cell background color (Active)"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Cell text color (Active)"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Cell today background color"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Cell today text color"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Month & Week"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Show month & week settings"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Legend background color"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Legend text color"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Legend background color (Today)"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Legend text color (Today)"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Different month cell background color"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Different month cell text color"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Today cell text background color"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Today cell text color"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Show grid settings"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Border color"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Title color"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+#: build/assets/js/widgets/stec/admin.js:1
+msgid "Box Grid"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Show box grid settings"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Background image dimness"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Adjust the background image dimness"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Background image dimness (hover)"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Adjust the background image dimness on hover"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Event Preview"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Background color (Hover)"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Title color (Hover)"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Text color (Hover)"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Buttons color"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Buttons color (Hover)"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Event Content"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Show event content settings"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Secondary title color"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Tab menu background"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Tab menu background (Active)"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Tab menu text color"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Tab menu text color (Active)"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Button background color"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Button background color (Hover)"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Button text color"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Button text color (Hover)"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Toggle button text color"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Toggle button text color (Hover)"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Advanced"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Show advanced settings"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Custom Style"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Manually add custom CSS to the calendar"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Language settings"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Show language settings"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Enable i18n-loader.js for en_US locale"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Turn on this setting if you want to load en_US .po files"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Enable i18n data loader"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Enables i18n-loader.js to load .po files if available."
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Agenda layout"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Show agenda layout settings"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Agenda slider"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Display agenda slider"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Agenda list"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Display agenda list"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Display \"next\" button"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Reverse events order"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Display events in reverse order"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+#: build/assets/js/widgets/events-slider/admin.js:1
+msgid "Events limit"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Number of events to display per request"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Month & week layout"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Show month & week layout settings"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Month & week cells style"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Fixed"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Auto"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Fixed style keeps the cells height static while Auto will expand them depending on the number of events in the cells"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Quick open"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "If checked, the event will open in modal window when clicked over without expanding the entire list"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Tooltip"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "If checked, the event tooltip will be displayed when hovered over"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Tooltip show event description"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "If checked the event description will be displayed in the tooltip"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Tooltip show counter"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "If checked the event counter will be displayed in the tooltip"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Tooltip image keep aspect ratio"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "If checked the tooltip images will be displayed with their original proportions preserved"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Display event title on all cells"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "If checked the event title will be displayed on each event cell"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Grid layout"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Show grid layout settings"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+#: build/assets/js/widgets/events-slider/admin.js:1
+msgid "Columns"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Columns number may change depending on the screen size"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+#: build/assets/js/widgets/events-slider/admin.js:1
+msgid "Gutter"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Grid space between events in pixels"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Grid image keep aspect ratio"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "If checked grid images will be displayed with their original proportions preserved"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Display counter"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Box grid layout"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Show box grid layout settings"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Map settings"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Show map settings"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Map provider"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Choose your map provider"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Open Street Map"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Google Maps"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "API Key"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Enter your google maps API key"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Map zoom"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Initial map zoom value"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Enable force load scripts"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Force load [stec] scripts "
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Page ids. Comma separated id values"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Force load [stec_events_slider] scripts "
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Force load [stec_events_list] scripts "
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Force load [stec_submit_form] scripts "
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Enable TinyMCE rich text editor"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "TinyMCE Custom Script Source"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "If you have a custom TinyMCE script, enter the source URL here or type \"cdn\" to load from the Tiny CDN"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "TinyMCE API key"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Get your API key from %s"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Miscellaneous settings"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Show misc settings"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Keep plugin data on uninstall"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Events fetch limit"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Number of events to fetch per request (1 to 500)"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+#: build/assets/js/widgets/events-list/admin.js:1
+#: build/assets/js/widgets/events-slider/admin.js:1
+msgid "Prefetch events"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+#: build/assets/js/widgets/events-list/admin.js:1
+#: build/assets/js/widgets/events-slider/admin.js:1
+msgid "Prefetch events on page load"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Ajax Nonce"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Request the rest api nonce via ajax"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Load Font-Awesome"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Pages settings"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Events single page slug"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Note: If you make changes to these settings, you will need to refresh your permalinks. To do so, navigate to your Dashboard, click on Settings, then Permalinks, and finally click on the Save Changes button."
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+#: build/assets/js/widgets/stec/admin.js:1
+msgid "Layouts"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Fonts and Colors"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Language"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+msgid "Pages"
+msgstr ""
+
+#: build/assets/js/dashboard/settings-lazy.js:1
+#: build/assets/js/widgets/events-list/admin.js:1
+#: build/assets/js/widgets/events-slider/admin.js:1
+#: build/assets/js/widgets/stec/admin.js:1
+msgid "Misc"
+msgstr ""
+
+#: build/assets/js/widgets/events-list/admin.js:1
+msgid "Events List Widget"
+msgstr ""
+
+#: build/assets/js/widgets/events-list/admin.js:1
+#: build/assets/js/widgets/events-slider/admin.js:1
+#: build/assets/js/widgets/stec/admin.js:1
+msgid "Toggle general settings"
+msgstr ""
+
+#: build/assets/js/widgets/events-list/admin.js:1
+msgid "Events Limit"
+msgstr ""
+
+#: build/assets/js/widgets/events-list/admin.js:1
+#: build/assets/js/widgets/events-slider/admin.js:1
+msgid "Quantity"
+msgstr ""
+
+#: build/assets/js/widgets/events-list/admin.js:1
+msgid "Order List"
+msgstr ""
+
+#: build/assets/js/widgets/events-list/admin.js:1
+#: build/assets/js/widgets/events-slider/admin.js:1
+msgid "Descending"
+msgstr ""
+
+#: build/assets/js/widgets/events-list/admin.js:1
+#: build/assets/js/widgets/events-slider/admin.js:1
+msgid "Ascending"
+msgstr ""
+
+#: build/assets/js/widgets/events-list/admin.js:1
+#: build/assets/js/widgets/events-slider/admin.js:1
+msgid "Open events in"
+msgstr ""
+
+#: build/assets/js/widgets/events-list/admin.js:1
+#: build/assets/js/widgets/events-slider/admin.js:1
+msgid "Same Window"
+msgstr ""
+
+#: build/assets/js/widgets/events-list/admin.js:1
+#: build/assets/js/widgets/events-slider/admin.js:1
+msgid "New Window"
+msgstr ""
+
+#: build/assets/js/widgets/events-list/admin.js:1
+#: build/assets/js/widgets/events-slider/admin.js:1
+msgid "Use external link"
+msgstr ""
+
+#: build/assets/js/widgets/events-list/admin.js:1
+msgid "Show Tags"
+msgstr ""
+
+#: build/assets/js/widgets/events-list/admin.js:1
+msgid "Show Thumbnail"
+msgstr ""
+
+#: build/assets/js/widgets/events-list/admin.js:1
+msgid "Show Categories"
+msgstr ""
+
+#: build/assets/js/widgets/events-list/admin.js:1
+msgid "Show Locations"
+msgstr ""
+
+#: build/assets/js/widgets/events-list/admin.js:1
+msgid "Show Tickets"
+msgstr ""
+
+#: build/assets/js/widgets/events-list/admin.js:1
+msgid "Show Description"
+msgstr ""
+
+#: build/assets/js/widgets/events-list/admin.js:1
+#: build/assets/js/widgets/events-slider/admin.js:1
+#: build/assets/js/widgets/stec/admin.js:1
+msgid "Filters"
+msgstr ""
+
+#: build/assets/js/widgets/events-list/admin.js:1
+#: build/assets/js/widgets/events-slider/admin.js:1
+#: build/assets/js/widgets/stec/admin.js:1
+msgid "Toggle filters settings"
+msgstr ""
+
+#: build/assets/js/widgets/events-list/admin.js:1
+#: build/assets/js/widgets/events-slider/admin.js:1
+msgid "Filter events by status"
+msgstr ""
+
+#: build/assets/js/widgets/events-list/admin.js:1
+#: build/assets/js/widgets/events-slider/admin.js:1
+#: build/assets/js/widgets/stec/admin.js:1
+msgid "Filter events by calendars. Comma separated id values"
+msgstr ""
+
+#: build/assets/js/widgets/events-list/admin.js:1
+#: build/assets/js/widgets/events-slider/admin.js:1
+#: build/assets/js/widgets/stec/admin.js:1
+msgid "Filter events by categories. Comma separated id values"
+msgstr ""
+
+#: build/assets/js/widgets/events-list/admin.js:1
+#: build/assets/js/widgets/events-slider/admin.js:1
+#: build/assets/js/widgets/stec/admin.js:1
+msgid "Filter events by locations. Comma separated id values"
+msgstr ""
+
+#: build/assets/js/widgets/events-list/admin.js:1
+#: build/assets/js/widgets/events-slider/admin.js:1
+#: build/assets/js/widgets/stec/admin.js:1
+msgid "Filter events by organizers. Comma separated id values"
+msgstr ""
+
+#: build/assets/js/widgets/events-list/admin.js:1
+#: build/assets/js/widgets/events-slider/admin.js:1
+#: build/assets/js/widgets/stec/admin.js:1
+msgid "Author"
+msgstr ""
+
+#: build/assets/js/widgets/events-list/admin.js:1
+#: build/assets/js/widgets/events-slider/admin.js:1
+#: build/assets/js/widgets/stec/admin.js:1
+msgid "Filter events by authors. Comma separated id values"
+msgstr ""
+
+#: build/assets/js/widgets/events-list/admin.js:1
+#: build/assets/js/widgets/events-slider/admin.js:1
+#: build/assets/js/widgets/stec/admin.js:1
+msgid "Minimum date range"
+msgstr ""
+
+#: build/assets/js/widgets/events-list/admin.js:1
+#: build/assets/js/widgets/events-slider/admin.js:1
+#: build/assets/js/widgets/stec/admin.js:1
+msgid "Now"
+msgstr ""
+
+#: build/assets/js/widgets/events-list/admin.js:1
+#: build/assets/js/widgets/events-slider/admin.js:1
+#: build/assets/js/widgets/stec/admin.js:1
+msgid "Start of today"
+msgstr ""
+
+#: build/assets/js/widgets/events-list/admin.js:1
+#: build/assets/js/widgets/events-slider/admin.js:1
+#: build/assets/js/widgets/stec/admin.js:1
+msgid "End of today"
+msgstr ""
+
+#: build/assets/js/widgets/events-list/admin.js:1
+#: build/assets/js/widgets/events-slider/admin.js:1
+#: build/assets/js/widgets/stec/admin.js:1
+msgid "Start of current week"
+msgstr ""
+
+#: build/assets/js/widgets/events-list/admin.js:1
+#: build/assets/js/widgets/events-slider/admin.js:1
+#: build/assets/js/widgets/stec/admin.js:1
+msgid "End of current week"
+msgstr ""
+
+#: build/assets/js/widgets/events-list/admin.js:1
+#: build/assets/js/widgets/events-slider/admin.js:1
+#: build/assets/js/widgets/stec/admin.js:1
+msgid "Start of previous week"
+msgstr ""
+
+#: build/assets/js/widgets/events-list/admin.js:1
+#: build/assets/js/widgets/events-slider/admin.js:1
+#: build/assets/js/widgets/stec/admin.js:1
+msgid "End of previous week"
+msgstr ""
+
+#: build/assets/js/widgets/events-list/admin.js:1
+#: build/assets/js/widgets/events-slider/admin.js:1
+#: build/assets/js/widgets/stec/admin.js:1
+msgid "Start of next week"
+msgstr ""
+
+#: build/assets/js/widgets/events-list/admin.js:1
+#: build/assets/js/widgets/events-slider/admin.js:1
+#: build/assets/js/widgets/stec/admin.js:1
+msgid "End of next week"
+msgstr ""
+
+#: build/assets/js/widgets/events-list/admin.js:1
+#: build/assets/js/widgets/events-slider/admin.js:1
+#: build/assets/js/widgets/stec/admin.js:1
+msgid "Start of current month"
+msgstr ""
+
+#: build/assets/js/widgets/events-list/admin.js:1
+#: build/assets/js/widgets/events-slider/admin.js:1
+#: build/assets/js/widgets/stec/admin.js:1
+msgid "End of current month"
+msgstr ""
+
+#: build/assets/js/widgets/events-list/admin.js:1
+#: build/assets/js/widgets/events-slider/admin.js:1
+#: build/assets/js/widgets/stec/admin.js:1
+msgid "Start of previous month"
+msgstr ""
+
+#: build/assets/js/widgets/events-list/admin.js:1
+#: build/assets/js/widgets/events-slider/admin.js:1
+#: build/assets/js/widgets/stec/admin.js:1
+msgid "End of previous month"
+msgstr ""
+
+#: build/assets/js/widgets/events-list/admin.js:1
+#: build/assets/js/widgets/events-slider/admin.js:1
+#: build/assets/js/widgets/stec/admin.js:1
+msgid "Start of next month"
+msgstr ""
+
+#: build/assets/js/widgets/events-list/admin.js:1
+#: build/assets/js/widgets/events-slider/admin.js:1
+#: build/assets/js/widgets/stec/admin.js:1
+msgid "End of next month"
+msgstr ""
+
+#: build/assets/js/widgets/events-list/admin.js:1
+#: build/assets/js/widgets/events-slider/admin.js:1
+#: build/assets/js/widgets/stec/admin.js:1
+msgid "Start of current year"
+msgstr ""
+
+#: build/assets/js/widgets/events-list/admin.js:1
+#: build/assets/js/widgets/events-slider/admin.js:1
+#: build/assets/js/widgets/stec/admin.js:1
+msgid "End of current year"
+msgstr ""
+
+#: build/assets/js/widgets/events-list/admin.js:1
+#: build/assets/js/widgets/events-slider/admin.js:1
+#: build/assets/js/widgets/stec/admin.js:1
+msgid "Start of previous year"
+msgstr ""
+
+#: build/assets/js/widgets/events-list/admin.js:1
+#: build/assets/js/widgets/events-slider/admin.js:1
+#: build/assets/js/widgets/stec/admin.js:1
+msgid "End of previous year"
+msgstr ""
+
+#: build/assets/js/widgets/events-list/admin.js:1
+#: build/assets/js/widgets/events-slider/admin.js:1
+#: build/assets/js/widgets/stec/admin.js:1
+msgid "Start of next year"
+msgstr ""
+
+#: build/assets/js/widgets/events-list/admin.js:1
+#: build/assets/js/widgets/events-slider/admin.js:1
+#: build/assets/js/widgets/stec/admin.js:1
+msgid "End of next year"
+msgstr ""
+
+#: build/assets/js/widgets/events-list/admin.js:1
+#: build/assets/js/widgets/events-slider/admin.js:1
+#: build/assets/js/widgets/stec/admin.js:1
+msgid "3 months ahead"
+msgstr ""
+
+#: build/assets/js/widgets/events-list/admin.js:1
+#: build/assets/js/widgets/events-slider/admin.js:1
+#: build/assets/js/widgets/stec/admin.js:1
+msgid "3 months ago"
+msgstr ""
+
+#: build/assets/js/widgets/events-list/admin.js:1
+#: build/assets/js/widgets/events-slider/admin.js:1
+#: build/assets/js/widgets/stec/admin.js:1
+msgid "6 months ahead"
+msgstr ""
+
+#: build/assets/js/widgets/events-list/admin.js:1
+#: build/assets/js/widgets/events-slider/admin.js:1
+#: build/assets/js/widgets/stec/admin.js:1
+msgid "6 months ago"
+msgstr ""
+
+#: build/assets/js/widgets/events-list/admin.js:1
+#: build/assets/js/widgets/events-slider/admin.js:1
+#: build/assets/js/widgets/stec/admin.js:1
+msgid "1 year ahead"
+msgstr ""
+
+#: build/assets/js/widgets/events-list/admin.js:1
+#: build/assets/js/widgets/events-slider/admin.js:1
+#: build/assets/js/widgets/stec/admin.js:1
+msgid "1 year ago"
+msgstr ""
+
+#: build/assets/js/widgets/events-list/admin.js:1
+#: build/assets/js/widgets/events-slider/admin.js:1
+#: build/assets/js/widgets/stec/admin.js:1
+msgid "2 years ahead"
+msgstr ""
+
+#: build/assets/js/widgets/events-list/admin.js:1
+#: build/assets/js/widgets/events-slider/admin.js:1
+#: build/assets/js/widgets/stec/admin.js:1
+msgid "2 years ago"
+msgstr ""
+
+#: build/assets/js/widgets/events-list/admin.js:1
+#: build/assets/js/widgets/events-slider/admin.js:1
+#: build/assets/js/widgets/stec/admin.js:1
+msgid "Select Date"
+msgstr ""
+
+#: build/assets/js/widgets/events-list/admin.js:1
+#: build/assets/js/widgets/events-slider/admin.js:1
+#: build/assets/js/widgets/stec/admin.js:1
+msgid "Select min date"
+msgstr ""
+
+#: build/assets/js/widgets/events-list/admin.js:1
+#: build/assets/js/widgets/events-slider/admin.js:1
+#: build/assets/js/widgets/stec/admin.js:1
+msgid "Maximum date range"
+msgstr ""
+
+#: build/assets/js/widgets/events-list/admin.js:1
+#: build/assets/js/widgets/events-slider/admin.js:1
+#: build/assets/js/widgets/stec/admin.js:1
+msgid "Select date"
+msgstr ""
+
+#: build/assets/js/widgets/events-list/admin.js:1
+#: build/assets/js/widgets/events-slider/admin.js:1
+#: build/assets/js/widgets/stec/admin.js:1
+msgid "Select max date"
+msgstr ""
+
+#: build/assets/js/widgets/events-list/admin.js:1
+#: build/assets/js/widgets/events-slider/admin.js:1
+#: build/assets/js/widgets/stec/admin.js:1
+msgid "Include events intersecting min/max date"
+msgstr ""
+
+#: build/assets/js/widgets/events-list/admin.js:1
+#: build/assets/js/widgets/events-slider/admin.js:1
+#: build/assets/js/widgets/stec/admin.js:1
+msgid "Featured only"
+msgstr ""
+
+#: build/assets/js/widgets/events-list/admin.js:1
+#: build/assets/js/widgets/events-slider/admin.js:1
+msgid "Toggle misc settings"
+msgstr ""
+
+#: build/assets/js/widgets/events-list/admin.js:1
+#: build/assets/js/widgets/events-slider/admin.js:1
+#: build/assets/js/widgets/stec/admin.js:1
+msgid "Extra attributes"
+msgstr ""
+
+#: build/assets/js/widgets/events-list/admin.js:1
+#: build/assets/js/widgets/events-slider/admin.js:1
+#: build/assets/js/widgets/stec/admin.js:1
+msgid "Add any extra attributes to the shortcode"
+msgstr ""
+
+#: build/assets/js/widgets/events-list/lazy-events-list-lazy.js:1
+msgid "Tickets"
+msgstr ""
+
+#: build/assets/js/widgets/events-slider/admin.js:1
+msgid "Events Slider Widget"
+msgstr ""
+
+#: build/assets/js/widgets/events-slider/admin.js:1
+msgid "Order list"
+msgstr ""
+
+#: build/assets/js/widgets/events-slider/admin.js:1
+msgid "Show tags"
+msgstr ""
+
+#: build/assets/js/widgets/events-slider/admin.js:1
+msgid "Show categories"
+msgstr ""
+
+#: build/assets/js/widgets/events-slider/admin.js:1
+msgid "Show description"
+msgstr ""
+
+#: build/assets/js/widgets/events-slider/admin.js:1
+msgid "Show tickets"
+msgstr ""
+
+#: build/assets/js/widgets/events-slider/admin.js:1
+msgid "Slider bullets"
+msgstr ""
+
+#: build/assets/js/widgets/events-slider/admin.js:1
+msgid "Slider arrows"
+msgstr ""
+
+#: build/assets/js/widgets/events-slider/admin.js:1
+msgid "Auto slide"
+msgstr ""
+
+#: build/assets/js/widgets/events-slider/admin.js:1
+msgid "Auto slide delay in seconds. Set to 0 to turn off"
+msgstr ""
+
+#: build/assets/js/widgets/stec/admin.js:1
+msgid "Layout"
+msgstr ""
+
+#: build/assets/js/widgets/stec/admin.js:1
+msgid "Initial calendar layout"
+msgstr ""
+
+#: build/assets/js/widgets/stec/admin.js:1
+msgid "Available layouts"
+msgstr ""
+
+#: build/assets/js/widgets/stec/admin.js:1
+msgid "Filter events by guests. Comma separated id values"
+msgstr ""
+
+#: build/assets/js/widgets/stec/admin.js:1
+msgid "Initial start date"
+msgstr ""
+
+#: build/assets/js/widgets/stec/admin.js:1
+msgid "Misc settings"
+msgstr ""
